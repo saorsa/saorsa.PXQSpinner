@@ -1,0 +1,14 @@
+PODS:
+  - saorsa.PXQSpinner (0.1.0)
+
+DEPENDENCIES:
+  - saorsa.PXQSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  saorsa.PXQSpinner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  saorsa.PXQSpinner: 121c0094491a8a9db51d685d42df7c9a87a55420
+
+COCOAPODS: 0.36.0
