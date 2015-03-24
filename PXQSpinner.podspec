@@ -10,18 +10,17 @@
 Pod::Spec.new do |s|
   s.name             = "PXQSpinner"
   s.version          = "0.1.1"
-  s.summary          = "A short description of PXQSpinner."
+  s.summary          = "PXQSpinner is another iOS spinner."
   s.description      = <<-DESC
-                       An optional longer description of PXQSpinner
-
+a
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PXQSpinner"
+  s.homepage         = "https://github.com/saorsa/saorsa.PXQSpinner"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Atanas Dragolov" => "adragolov@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PXQSpinner.git", :tag => s.version.to_s }
+  s.author           = { "Atanas Dragolov" => "atanas.dragolov@saorsa.bg" }
+  s.source           = { :git => "https://github.com/saorsa/saorsa.PXQSpinner.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -33,6 +32,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit', 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

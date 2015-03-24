@@ -1,6 +1,6 @@
 # PXQSpinner
 
-[![CI Status](http://img.shields.io/travis/Atanas Dragolov/PXQSpinner.svg?style=flat)](https://travis-ci.org/Atanas Dragolov/PXQSpinner)
+[![CI Status](http://img.shields.io/travis/saorsa/saorsa.PXQSpinner.svg?style=flat)](https://travis-ci.org/Atanas Dragolov/PXQSpinner)
 [![Version](https://img.shields.io/cocoapods/v/PXQSpinner.svg?style=flat)](http://cocoapods.org/pods/PXQSpinner)
 [![License](https://img.shields.io/cocoapods/l/PXQSpinner.svg?style=flat)](http://cocoapods.org/pods/PXQSpinner)
 [![Platform](https://img.shields.io/cocoapods/p/PXQSpinner.svg?style=flat)](http://cocoapods.org/pods/PXQSpinner)
