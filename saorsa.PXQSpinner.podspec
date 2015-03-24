@@ -8,8 +8,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "saorsa.PXQSpinner"
-  s.version          = "0.1"
+  s.name             = "PXQSpinner"
+  s.version          = "0.1.1"
   s.summary          = "Another loading indicator."
   s.description      = <<-DESC
                        Simple description.
