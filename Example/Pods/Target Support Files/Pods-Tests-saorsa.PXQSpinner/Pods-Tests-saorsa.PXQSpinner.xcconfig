@@ -1,1 +1,0 @@
-PODS_TESTS_SAORSA_PXQSPINNER_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MapKit" -framework "QuartzCore" -framework "UIKit"
