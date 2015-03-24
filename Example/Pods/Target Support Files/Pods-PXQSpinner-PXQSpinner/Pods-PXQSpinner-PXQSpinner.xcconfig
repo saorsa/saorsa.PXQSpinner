@@ -1,0 +1,1 @@
+PODS_PXQSPINNER_PXQSPINNER_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MapKit" -framework "UIKit"
