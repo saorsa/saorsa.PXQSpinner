@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'PXQSpinner', :exclusive => true do
+  pod "PXQSpinner", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "PXQSpinner", :path => "../"
+
+end
