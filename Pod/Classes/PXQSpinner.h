@@ -10,9 +10,15 @@
 
 @interface PXQSpinner : UIView
 
+@property (nonatomic, strong, readonly) UILabel * textLabel;
+
 @property (nonatomic, assign) CGFloat lineWidth;
 
-@property (nonatomic, assign) UIColor *lineTintColor;
+@property (nonatomic, assign) UIColor * lineTintColor;
+
+@property (nonatomic, copy) NSString * titleText;
+
+@property (nonatomic, strong) UIFont * titleFont;
 
 - (void)start;
 
@@ -20,6 +26,6 @@
 
 + (instancetype)setOnView:(UIView *)view withTitle:(NSString *)title animated:(BOOL)animated;
 
-+ (BOOL)hideFromView:(UIView *)view animated:(BOOL)animated;
++ (PXQSpinner *)hideFromView:(UIView *)view animated:(BOOL)animated;
 
 @end

@@ -1,6 +1,6 @@
 {
   "name": "PXQSpinner",
-  "version": "0.1.1",
+  "version": "0.2",
   "summary": "PXQSpinner is another iOS spinner.",
   "description": "a\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
   "homepage": "https://github.com/saorsa/saorsa.PXQSpinner",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/saorsa/saorsa.PXQSpinner.git",
-    "tag": "0.1.1"
+    "tag": "0.2"
   },
   "platforms": {
     "ios": "7.0"

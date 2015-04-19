@@ -1,5 +1,5 @@
 PODS:
-  - PXQSpinner (0.1.1)
+  - PXQSpinner (0.2)
 
 DEPENDENCIES:
   - PXQSpinner (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PXQSpinner: 061087e4d4b1a6b4c678634f1533391f39c3ff3f
+  PXQSpinner: 630d36181dc876ce7fe71e9a491f524876016608
 
 COCOAPODS: 0.36.0
