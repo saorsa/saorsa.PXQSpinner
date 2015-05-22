@@ -1,0 +1,1 @@
+../../../PXQuisiteExtensions/Pod/Classes/NSPropertyDescription+PXQuisite.h

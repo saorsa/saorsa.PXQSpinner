@@ -1,5 +1,9 @@
 PODS:
-  - PXQSpinner (0.2)
+  - LINQ4Obj-C (1.2.0)
+  - PXQSpinner (0.3):
+    - PXQuisiteExtensions (~> 0.5)
+  - PXQuisiteExtensions (0.5):
+    - LINQ4Obj-C
 
 DEPENDENCIES:
   - PXQSpinner (from `../`)
@@ -9,6 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PXQSpinner: 630d36181dc876ce7fe71e9a491f524876016608
+  LINQ4Obj-C: d64fbf6ef62b3273b32f70ff53edb48dd17a80e6
+  PXQSpinner: 0aa0a4c695e2ba6166f82015e658bb83ae063826
+  PXQuisiteExtensions: c4095312155d50aca0a2123fe18baee2d976a136
 
 COCOAPODS: 0.36.0

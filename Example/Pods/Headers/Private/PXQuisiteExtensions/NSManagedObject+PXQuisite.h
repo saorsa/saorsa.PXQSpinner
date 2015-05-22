@@ -1,0 +1,1 @@
+../../../PXQuisiteExtensions/Pod/Classes/NSManagedObject+PXQuisite.h

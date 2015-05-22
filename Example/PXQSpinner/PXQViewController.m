@@ -7,23 +7,23 @@
 //
 
 #import "PXQViewController.h"
-
-@interface PXQViewController ()
-
-@end
+#import <PXQSpinner/PXQSpinner.h>
 
 @implementation PXQViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
+    
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	
+    PXQSpinner * spinner = [PXQSpinner setOnView:self.view withTitle:@"We are loading..." animated:YES];
+    
+    spinner.lineTintColor = [UIColor blueColor];
+    
+    spinner.lineWidth = 2;
+    
+    spinner.titleFont = [UIFont fontWithName:@"HelveticaNeue-Thin" size:12];
+    
+    spinner.titleColor = [UIColor blackColor];
 }
 
 @end

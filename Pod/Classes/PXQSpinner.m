@@ -7,6 +7,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////
 #import "PXQSpinner.h"
+#import <PXQuisiteExtensions/PXQuisiteExtensions.h>
 
 @interface PXQSpinner ()
 
@@ -21,9 +22,21 @@
 @implementation PXQSpinner
 
 @synthesize textLabel = _textLabel;
+@synthesize lineWidth = _lineWidth;
+@synthesize lineTintColor = _lineTintColor;
 
 #pragma mark -
 #pragma mark Properties
+
+- (UIColor *)titleColor {
+    
+    return self.textLabel.textColor;
+}
+
+- (void)setTitleColor:(UIColor *)titleColor {
+    
+    self.textLabel.textColor = titleColor;
+}
 
 - (NSString *)titleText {
     
@@ -45,12 +58,63 @@
     self.textLabel.font = [titleFont isKindOfClass:[UIFont class]] ? titleFont : [UIFont systemFontOfSize:18.0f];
 }
 
+- (void)setLineWidth:(CGFloat)lineWidth {
+ 
+    if ( lineWidth != _lineWidth ) {
+        
+        @synchronized ( self ) {
+            
+            _lineWidth = lineWidth;
+        
+            _backgroundLayer.lineWidth = lineWidth;
+    
+            [_backgroundLayer setNeedsLayout];
+            
+            [_backgroundLayer setNeedsDisplay];
+        }
+    }
+}
+
++ (UIColor *)defaultTextColor {
+    
+    return  [UIColor colorWithRed:0.129 green:0.455 blue:0.627 alpha:1.0];
+}
+
++ (UIColor *)defaultLineTintColor {
+ 
+    return [UIColor colorWithRed:0.129 green:0.455 blue:0.627 alpha:1.0];
+}
+
+- (UIColor *)lineTintColor {
+    
+    if ( ! _lineTintColor ) {
+        
+        _lineTintColor = [[self class] defaultLineTintColor];;
+    }
+    
+    return _lineTintColor;
+}
+
+- (void)setLineTintColor:(UIColor *)lineTintColor {
+    
+    @synchronized ( self ) {
+        
+        _lineTintColor = lineTintColor;
+        
+        _backgroundLayer.strokeColor = _lineTintColor.CGColor;
+        
+        [_backgroundLayer setNeedsLayout];
+        
+        [_backgroundLayer setNeedsDisplay];
+    }
+}
+
 #pragma mark -
-#pragma mark View Hierarchy 
+#pragma mark View Hierarchy
 
 + (instancetype)setOnView:(UIView *)view withTitle:(NSString *)title animated:(BOOL)animated {
     
-    PXQSpinner *hud = [[[self class] alloc] initWithFrame:CGRectMake(40, 40, 40, 40)];
+    PXQSpinner * hud = [[[self class] alloc] initWithFrame:CGRectMake(40, 40, 40, 40)];
     
     //You can add an image to the center of the spinner view
     //    UIImageView *img = [[UIImageView alloc] initWithFrame:GMD_SPINNER_IMAGE];
@@ -71,6 +135,8 @@
     CGPoint center = CGPointMake(width/2, height/2);
     
     hud.center = center;
+    
+    [hud applyAutoresizeAll];
     
     return hud;
 }
@@ -134,18 +200,22 @@
 #pragma mark Setup
 
 - (void)setup {
-
+    
     //
-    //  Background rotation animation layer
+    //  Default background color
     //
     
     self.backgroundColor = [UIColor clearColor];
+    
+    //
+    //  Background rotation animation layer
+    //
     
     _lineWidth = fmaxf(self.frame.size.width * 0.025, 1.f);
     
     self.backgroundLayer = [CAShapeLayer layer];
     
-    _backgroundLayer.strokeColor =  [UIColor colorWithRed:0.129 green:0.455 blue:0.627 alpha:1.0].CGColor;
+    _backgroundLayer.strokeColor =  self.lineTintColor.CGColor;
     
     _backgroundLayer.fillColor = self.backgroundColor.CGColor;
     
@@ -163,7 +233,7 @@
     
     label.font = [UIFont boldSystemFontOfSize:18.0f];
     
-    label.textColor = [UIColor colorWithRed:0.129 green:0.455 blue:0.627 alpha:1.0];
+    label.textColor = [[self class] defaultTextColor];
     
     label.textAlignment = NSTextAlignmentCenter;
     
@@ -182,7 +252,7 @@
 #pragma mark -
 #pragma mark Drawing
 
-- (void)drawBackgroundCircle:(BOOL) partial {
+- (void)drawBackgroundCircle:(BOOL)partial {
     
     CGFloat startAngle = - ((float)M_PI / 2); // 90 Degrees
     
@@ -197,6 +267,7 @@
     //
     
     UIBezierPath *processBackgroundPath = [UIBezierPath bezierPath];
+    
     processBackgroundPath.lineWidth = _lineWidth;
     
     //
@@ -220,33 +291,39 @@
     
     if ( ! self.isSpinning ) {
         
-        self.isSpinning = YES;
-        
-        [self drawBackgroundCircle:YES];
-        
-        CABasicAnimation *rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
-        
-        rotationAnimation.toValue = [NSNumber numberWithFloat:M_PI * 2.0];
-        
-        rotationAnimation.duration = 1;
-        
-        rotationAnimation.cumulative = YES;
-        
-        rotationAnimation.repeatCount = HUGE_VALF;
-        
-        [_backgroundLayer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
+        @synchronized (self) {
+            
+            self.isSpinning = YES;
+            
+            [self drawBackgroundCircle:YES];
+            
+            CABasicAnimation *rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+            
+            rotationAnimation.toValue = [NSNumber numberWithFloat:M_PI * 2.0];
+            
+            rotationAnimation.duration = 1;
+            
+            rotationAnimation.cumulative = YES;
+            
+            rotationAnimation.repeatCount = HUGE_VALF;
+            
+            [_backgroundLayer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
+        }
     }
 }
 
-- (void)stop{
+- (void)stop {
     
     if ( self.isSpinning ) {
         
-        [self drawBackgroundCircle:NO];
-        
-        [_backgroundLayer removeAllAnimations];
-        
-        self.isSpinning = NO;
+        @synchronized ( self ) {
+            
+            [self drawBackgroundCircle:NO];
+            
+            [_backgroundLayer removeAllAnimations];
+            
+            self.isSpinning = NO;
+        }
     }
 }
 

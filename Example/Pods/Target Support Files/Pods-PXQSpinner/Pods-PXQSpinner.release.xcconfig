@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PXQSpinner"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/PXQSpinner"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-PXQSpinner-PXQSpinner" -framework "CoreGraphics" -framework "MapKit" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LINQ4Obj-C" "${PODS_ROOT}/Headers/Public/PXQSpinner" "${PODS_ROOT}/Headers/Public/PXQuisiteExtensions"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LINQ4Obj-C" -isystem "${PODS_ROOT}/Headers/Public/PXQSpinner" -isystem "${PODS_ROOT}/Headers/Public/PXQuisiteExtensions"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-PXQSpinner-LINQ4Obj-C" -l"Pods-PXQSpinner-PXQSpinner" -l"Pods-PXQSpinner-PXQuisiteExtensions" -framework "CoreData" -framework "CoreGraphics" -framework "QuartzCore" -framework "UIKit"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

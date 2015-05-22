@@ -7,313 +7,1195 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B0F2EDE2070B58ECD5A945 /* PXQSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED29DF35BA2D3442C3320F0 /* PXQSpinner.h */; };
-		0E6296DFD55BDE208968F152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF2CDF3719B62FE0F3150F4 /* Foundation.framework */; };
-		153E3D8965DFAA1D13FCE91B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0DD28C41FC6513A3E75EA6 /* UIKit.framework */; };
-		16F98DABF5A489FA45F98692 /* Pods-PXQSpinner-PXQSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FF5BC624DA78AE67666843 /* Pods-PXQSpinner-PXQSpinner-dummy.m */; };
-		358358DC19D65D7799AAC266 /* Pods-PXQSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F6C3938DC389657B7FFB49 /* Pods-PXQSpinner-dummy.m */; };
-		37214A7C82DA0C1AD4E39C4E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E878A2D72E1D978375A91637 /* MapKit.framework */; };
-		3962375FAE810C0271B2DB62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2A2F98EB5050A2C8C9D43D /* CoreGraphics.framework */; };
-		5E28CFEE2F1F107F50E071F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0DD28C41FC6513A3E75EA6 /* UIKit.framework */; };
-		8450FD629CCD96D633CFDF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF2CDF3719B62FE0F3150F4 /* Foundation.framework */; };
-		8CC342F5816EE773B2020A20 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E7E76208399DEC15D67AA /* Pods-Tests-dummy.m */; };
-		951EBA1F49B17BDE03923A81 /* PXQSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 388891275ABC41D882EF778E /* PXQSpinner.m */; };
-		A5D6FA3C0C1957454F1BF6DD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E878A2D72E1D978375A91637 /* MapKit.framework */; };
-		A9F2D407D01FDB95F8A9BD6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2A2F98EB5050A2C8C9D43D /* CoreGraphics.framework */; };
-		B710AA561F3E69001789BE8E /* Pods-Tests-PXQSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 435AA4EE4ACC42C881C8486A /* Pods-Tests-PXQSpinner-dummy.m */; };
-		CC473A9FBAC8509333193A17 /* PXQSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 388891275ABC41D882EF778E /* PXQSpinner.m */; };
-		E71E71CD11C783911DED5D23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF2CDF3719B62FE0F3150F4 /* Foundation.framework */; };
-		F55D775907965E18C3E5D00F /* PXQSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED29DF35BA2D3442C3320F0 /* PXQSpinner.h */; };
-		FD9EEAC2C4485163BDFFC97F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF2CDF3719B62FE0F3150F4 /* Foundation.framework */; };
+		00F81662E5DBDF399DAC3BCF /* NSDateFormatter+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB0362C82E0ABE61052B5DF /* NSDateFormatter+PXQuisite.h */; };
+		02C1B5D9868CD8D263DCCAFD /* NSRelationshipDescription+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EB99C251315D12BBFD28F7 /* NSRelationshipDescription+PXQuisite.m */; };
+		03525C89C9C936BF45D93503 /* NSPropertyDescription+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C784ED913C3E759A7776F05D /* NSPropertyDescription+PXQuisite.m */; };
+		039617AB2D5070CCBC488E03 /* NSDictionary+LINQ_Partitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD40F242FB87000A2BBC2F1 /* NSDictionary+LINQ_Partitioning.m */; };
+		06161D43845B432F75B03EAF /* UIView+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 062B1877F3A09A7224246AA0 /* UIView+PXQuisite.m */; };
+		0714DB653E5DD7CE7AC20E90 /* NSArray+LINQ_Partitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F45C8730EAF443B4ED4EAF /* NSArray+LINQ_Partitioning.h */; };
+		08C75791F5186BC7834B56E6 /* NSBundle+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D91479E5AC412D20CA452 /* NSBundle+PXQuisite.m */; };
+		096374E5E66D35681F25E117 /* UIScreen+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 21440C6FA8019EA096ED0ECA /* UIScreen+PXQuisite.h */; };
+		0AA2509725746E74F6C353FB /* NSManagedObject+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C09E200586AC1D0070B397 /* NSManagedObject+PXQuisite.m */; };
+		0AB13B5DE331B00308B7CBB0 /* NSAttributeDescription+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 35107E073217499F5EB04DF9 /* NSAttributeDescription+PXQuisite.m */; };
+		0B03FEDDAB68312F1C0E6EEA /* NSDictionary+LINQ_Sets.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E23DFA832C631DCED14A58 /* NSDictionary+LINQ_Sets.h */; };
+		0B7537A9169160E68A491A68 /* NSDictionary+LINQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3F011A0598FFB24D347FDB /* NSDictionary+LINQ.h */; };
+		0DA2D499C46D5F6E3033CC36 /* NSDictionary+LINQ_Converting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A6B1A6A675CE2F2736C71 /* NSDictionary+LINQ_Converting.m */; };
+		0DFCB7C8286275AF2C6F3081 /* NSArray+LINQ_Quantifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 81979210C6FE041800446868 /* NSArray+LINQ_Quantifier.m */; };
+		0E764E83AD6A3FD7022D1C1F /* NSDictionary+LINQ_Partitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD40F242FB87000A2BBC2F1 /* NSDictionary+LINQ_Partitioning.m */; };
+		121BDF7D1A740E152FA23391 /* NSDictionary+LINQ_Converting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3A6B1A6A675CE2F2736C71 /* NSDictionary+LINQ_Converting.m */; };
+		129FDBED841444D8CE6F2D6B /* UIScreenMode+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EED11F2C7A6435BC57849F /* UIScreenMode+PXQuisite.h */; };
+		13372CD8791B5FD71553A663 /* UIScreenMode+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BB1501AECCD765114236F0 /* UIScreenMode+PXQuisite.m */; };
+		13A7B2236268C420AF42E780 /* NSDictionary+LINQ_Sets.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C4C733FB1413089D297FE /* NSDictionary+LINQ_Sets.m */; };
+		13BC8189D52279D2137C39AE /* NSManagedObjectContext+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1CA78F77FB1F96E4ECDA6 /* NSManagedObjectContext+PXQuisite.m */; };
+		144E07A9045BB7E49436BDEF /* UINavigationController+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 136DF73B8D5BC218E80BC871 /* UINavigationController+PXQuisite.h */; };
+		18F29CD3FA4BCC3CDA552278 /* NSPersistentStore+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 500DDDD3FBF10C3CF891EFF5 /* NSPersistentStore+PXQuisite.m */; };
+		191FA0C3215C87FD7ADFECEB /* NSDictionary+LINQ_Quantifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C5596D60E33EBA0803FA1 /* NSDictionary+LINQ_Quantifier.m */; };
+		1925E36FF2F8DB9117B449A9 /* NSMutableDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E41D6F52F3731CE865FCB2D /* NSMutableDictionary+PXQuisite.h */; };
+		1A1CB4E330AD382024F49381 /* UINavigationController+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9824DA66C7A48993C865C18 /* UINavigationController+PXQuisite.m */; };
+		1A66B914153E7C1A7AC93E10 /* NSDictionary+LINQ_Partitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA622C11F06CD77267DBE6 /* NSDictionary+LINQ_Partitioning.h */; };
+		1C62CECC4A4315E170EB899B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2C58D524B4B820638A78A /* Foundation.framework */; };
+		1CA0D51915DED2D58319E5E7 /* UIImage+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7580B78F7358535A12F105 /* UIImage+PXQuisite.m */; };
+		1DD0E131165BC25B9953837B /* NSArray+LINQ_Sorting.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD867170EA186860204134F /* NSArray+LINQ_Sorting.h */; };
+		1F288371E73D1E80778F3D73 /* NSRelationshipDescription+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EB99C251315D12BBFD28F7 /* NSRelationshipDescription+PXQuisite.m */; };
+		1F8E51B531624F0F74F3135D /* PXQSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = EACE3F9511CE480FDDD33BCF /* PXQSpinner.h */; };
+		217DBD14DC0A2FB004A726FB /* NSArray+LINQ_Generation.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D1091518038AAAC1F99A1 /* NSArray+LINQ_Generation.m */; };
+		23D5F601A225B8FF561E4EFE /* NSRelationshipDescription+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E578B994958F8DF16751DB /* NSRelationshipDescription+PXQuisite.h */; };
+		2722C006CD7B4C7672A1B32F /* NSArray+LINQ_Converting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E37D6D220C1AFF85947001C /* NSArray+LINQ_Converting.h */; };
+		27D2BED6A370C754211061D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2C58D524B4B820638A78A /* Foundation.framework */; };
+		284F9642E9F6540CCCC1F22D /* UIDevice+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 701ED80B5B99579C62F26397 /* UIDevice+PXQuisite.h */; };
+		29321578AB1F038E22704A43 /* PXQuisiteExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FE115EE563A82065E5784D2D /* PXQuisiteExtensions.h */; };
+		2BAE804E7EDB01239363B52B /* LINQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F34D718E9BAE77D8A77D7EE /* LINQ.h */; };
+		2BB772009D82EE8D43B21CFC /* NSBundle+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F251F97247879F30BED629 /* NSBundle+PXQuisite.h */; };
+		2C00947BB4D59F05206FE53E /* NSDate+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F272F35F6951EC08069E1 /* NSDate+PXQuisite.m */; };
+		2C322D4B1192F26738A22F17 /* NSDictionary+LINQ_Converting.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB5D4D494233F3A75EF87 /* NSDictionary+LINQ_Converting.h */; };
+		2ECB96044027A2C2D28ED460 /* NSArray+LINQ_Sets.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FEF264C36D96DE629EA78A /* NSArray+LINQ_Sets.m */; };
+		31BB6C1D449A3DFF9444F0C6 /* NSArray+LINQ_Sorting.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD867170EA186860204134F /* NSArray+LINQ_Sorting.h */; };
+		329CF69A3EE99DDBA87D2361 /* NSDictionary+LINQ_Sets.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C4C733FB1413089D297FE /* NSDictionary+LINQ_Sets.m */; };
+		34CE3DF92C4B11CA81F776D3 /* NSEntityDescription+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF36D0FA37F6D46FF5A14 /* NSEntityDescription+PXQuisite.m */; };
+		368573499ABB0C74D3CFBF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2C58D524B4B820638A78A /* Foundation.framework */; };
+		38BC513D6F6D3E367E96C65B /* NSDictionary+LINQ_Converting.h in Headers */ = {isa = PBXBuildFile; fileRef = 296FB5D4D494233F3A75EF87 /* NSDictionary+LINQ_Converting.h */; };
+		38E867B1D84DB1B35E1C994C /* NSDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CED17C14E5B66E862D2F46 /* NSDictionary+PXQuisite.m */; };
+		38FF4A1393783AA0456B457B /* NSDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CED17C14E5B66E862D2F46 /* NSDictionary+PXQuisite.m */; };
+		3A0BB898F81494DB0BAE2C96 /* NSArray+LINQ_Partitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F07EAD307B25BF63DCEE9C /* NSArray+LINQ_Partitioning.m */; };
+		3A3172B3A59E50151653DE21 /* NSError+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801885DD6F123BDB6E51CB /* NSError+PXQuisite.m */; };
+		3A7DEDDBA68A2A847528ED80 /* NSPropertyDescription+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = CFC1763AEE68BD038CB5129C /* NSPropertyDescription+PXQuisite.h */; };
+		3ACD9FAF34AD2C812C6A7788 /* NSMutableArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E566BDBBC16AB69FAD28CF /* NSMutableArray+PXQuisite.m */; };
+		3AFB63ECE3EA23B8F7375345 /* NSPersistentStoreCoordinator+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0693435E94F44B686991BA9C /* NSPersistentStoreCoordinator+PXQuisite.h */; };
+		3D4BD4F5ADEFCDD64EDA62D1 /* NSException+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B03F4F496ECE4BF19E6784 /* NSException+PXQuisite.h */; };
+		3D5E869FC1DE0C55F2EF322D /* NSDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BB1B7211ACB17A85FE1C28 /* NSDictionary+PXQuisite.h */; };
+		3DEB10437265AB4038AB4F00 /* NSArray+LINQ_Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD7FDCD273993C1871D059B /* NSArray+LINQ_Sorting.m */; };
+		3EE598E3305796FB37FEFF67 /* NSMutableArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E566BDBBC16AB69FAD28CF /* NSMutableArray+PXQuisite.m */; };
+		3F5932BB11B923E70AD06C2D /* UIImage+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7580B78F7358535A12F105 /* UIImage+PXQuisite.m */; };
+		3FA6FBAE79FA24F794212D35 /* NSString+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 902F5F4C0E33936B4979785A /* NSString+PXQuisite.m */; };
+		40B216CC7F5FEC6175D2A67C /* NSArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A8FEC799B81613B6141DDA /* NSArray+PXQuisite.h */; };
+		40E45663248B80E4F2054BB3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F4033A5F744F6154CCFD57 /* CoreData.framework */; };
+		48D3A6E30D4D5421726CA862 /* NSDictionary+LINQ_Quantifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 135FA39606FC521EA3BB463B /* NSDictionary+LINQ_Quantifier.h */; };
+		4A4123760F0DEE7569D6CFE4 /* NSManagedObjectContext+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1CA78F77FB1F96E4ECDA6 /* NSManagedObjectContext+PXQuisite.m */; };
+		4C966D2331328B6AED04A99F /* NSAttributeDescription+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 35107E073217499F5EB04DF9 /* NSAttributeDescription+PXQuisite.m */; };
+		4DC16DF39F9A1B5D97AB36A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2C58D524B4B820638A78A /* Foundation.framework */; };
+		4F0950AB99247AAF7DA93E53 /* NSRelationshipDescription+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E578B994958F8DF16751DB /* NSRelationshipDescription+PXQuisite.h */; };
+		4FC5D802556DD50706D193B2 /* NSDictionary+LINQ_Generation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADA76C23EF227E260A51D36 /* NSDictionary+LINQ_Generation.h */; };
+		513D7513D0F8AE2222C885D6 /* NSMutableArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2B6AB09868BE91B5C4EC63 /* NSMutableArray+PXQuisite.h */; };
+		51BA89E0B2D6691B18C54CF2 /* Pods-Tests-PXQuisiteExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99506414DA4BCA606D9F0299 /* Pods-Tests-PXQuisiteExtensions-dummy.m */; };
+		5381B1CD8EE48313BA99EB74 /* NSDictionary+LINQ_Generation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFD934179FDB6C5826041A /* NSDictionary+LINQ_Generation.m */; };
+		5565A3F5CE2018910BD94D83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BB8C3F74CB8C7200CA63C /* CoreGraphics.framework */; };
+		558DC18CF3639BFAA1544BAD /* NSString+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E1E44D814C1144662DD60D /* NSString+PXQuisite.h */; };
+		56FFC9FB5581532D39E0E732 /* NSEntityDescription+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8232F4C6393C16652C3B8D /* NSEntityDescription+PXQuisite.h */; };
+		59187D32E8274CED8B9633F4 /* NSURL+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EE9365668702D7F97F201B /* NSURL+PXQuisite.h */; };
+		59A31D6BCF702C01E945C5A8 /* UIImage+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = C843A9CFFA3E2D743677D9BF /* UIImage+PXQuisite.h */; };
+		5A1286A317F15D4A9E43716A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2C58D524B4B820638A78A /* Foundation.framework */; };
+		5A2350B4035446AEA952FCBA /* PXQSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = EACE3F9511CE480FDDD33BCF /* PXQSpinner.h */; };
+		5B55735F741E1351F0B78994 /* NSArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A8FEC799B81613B6141DDA /* NSArray+PXQuisite.h */; };
+		5D01C6AAADD009BB3BE7E28F /* UIDevice+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F95DA501FCB621E42C30 /* UIDevice+PXQuisite.m */; };
+		5D21EE71B97C385A0C185619 /* NSObject+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D00EF0F6A719A0FD0F8F7E5 /* NSObject+PXQuisite.m */; };
+		5E1F75BFFF5291D4F8683BED /* NSManagedObject+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C09E200586AC1D0070B397 /* NSManagedObject+PXQuisite.m */; };
+		5E59FF06EFEBC3B711D7EBFA /* NSArray+LINQ_Grouping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CF5C9DD7B989E2C44297C /* NSArray+LINQ_Grouping.m */; };
+		6023F3D63166B6418287D7F6 /* NSDictionary+LINQ_Sets.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E23DFA832C631DCED14A58 /* NSDictionary+LINQ_Sets.h */; };
+		61DB23617BD5F415F6EDA122 /* NSPersistentStore+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFC63EA8FA71B7AB61515EE /* NSPersistentStore+PXQuisite.h */; };
+		61F2DAF8AD3932A332469E72 /* PXQSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 700A572FA27D379AF18B44E8 /* PXQSpinner.m */; };
+		62942FAFBEF0EC56D1D2AE12 /* NSArray+LINQ_Sets.h in Headers */ = {isa = PBXBuildFile; fileRef = 301D8E903214C0C03C589D15 /* NSArray+LINQ_Sets.h */; };
+		6448C92A0538C835185535C2 /* NSDictionary+LINQ_Generation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFD934179FDB6C5826041A /* NSDictionary+LINQ_Generation.m */; };
+		674A0F78B6191410A2ED4D9F /* NSAttributeDescription+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8C02ADA04CCD5B8D021066 /* NSAttributeDescription+PXQuisite.h */; };
+		67536188B1705651433B3C8A /* NSArray+LINQ_Sets.h in Headers */ = {isa = PBXBuildFile; fileRef = 301D8E903214C0C03C589D15 /* NSArray+LINQ_Sets.h */; };
+		68AC296F2212C621CAB5AA6A /* MKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C09F187E471B7CC6FF687E5 /* MKMacros.h */; };
+		6A87CA1FC77383DBD1AD68E9 /* NSException+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E539B87AC9EBD29147D7B307 /* NSException+PXQuisite.m */; };
+		6B5D689F7B8B30D0C92EBA22 /* Pods-PXQSpinner-LINQ4Obj-C-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDBC3B5E51E95166487B49 /* Pods-PXQSpinner-LINQ4Obj-C-dummy.m */; };
+		6BA848C6CC61554075CCF4EB /* NSDictionary+LINQ_Partitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA622C11F06CD77267DBE6 /* NSDictionary+LINQ_Partitioning.h */; };
+		727AA6621435AD6D243FA1E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2C58D524B4B820638A78A /* Foundation.framework */; };
+		735C02C34D3B4C76552270F2 /* NSDictionary+LINQ_Generation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADA76C23EF227E260A51D36 /* NSDictionary+LINQ_Generation.h */; };
+		757B5AF1EFB119D3BCFCF7F4 /* NSArray+LINQ_Generation.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D1091518038AAAC1F99A1 /* NSArray+LINQ_Generation.m */; };
+		78660C240E135D87C7B949C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2C58D524B4B820638A78A /* Foundation.framework */; };
+		78C2F13B62C97945B210DF15 /* NSArray+LINQ_Aggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A158A653986D8002CDA16D /* NSArray+LINQ_Aggregation.m */; };
+		799B6344F273AB1FC097721D /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CA8F74E8049925D9BB27B9 /* Pods-Tests-dummy.m */; };
+		79E9E82002B6A89D5DD0625E /* NSArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC009AB13B8E680600A9A9 /* NSArray+PXQuisite.m */; };
+		7A97582AAB5DE4CBC45C2EEE /* NSManagedObject+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E56423869847211E34FC4BE /* NSManagedObject+PXQuisite.h */; };
+		7B28F34CA322C06FF4F71974 /* NSError+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C0801885DD6F123BDB6E51CB /* NSError+PXQuisite.m */; };
+		7C65FA287D1C30114A177194 /* NSPropertyDescription+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = CFC1763AEE68BD038CB5129C /* NSPropertyDescription+PXQuisite.h */; };
+		7D9944F863D8BA435EA84402 /* NSObject+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C334F5701D4D18383B7878 /* NSObject+PXQuisite.h */; };
+		7DA7E81895B5A0868B858CC1 /* UIScreen+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8F84059DDA016E96A6717 /* UIScreen+PXQuisite.m */; };
+		7DB9C1DAA024C435EADD689D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6911699A728B57E68D88FB84 /* QuartzCore.framework */; };
+		80D73AD1292BD10B5A47B9C9 /* NSArray+LINQ_Sets.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FEF264C36D96DE629EA78A /* NSArray+LINQ_Sets.m */; };
+		81C98B6BD23803F6424A6464 /* NSDictionary+LINQ_Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009B282547F5FCA0F2416EF /* NSDictionary+LINQ_Filtering.m */; };
+		8285D9B4C22B096EE917524B /* NSPersistentStoreCoordinator+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2EB37926851892CD898D58 /* NSPersistentStoreCoordinator+PXQuisite.m */; };
+		84759CD26225330B80711512 /* Pods-PXQSpinner-PXQuisiteExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4947890EF98F57212EA9EEF /* Pods-PXQSpinner-PXQuisiteExtensions-dummy.m */; };
+		8642329B8E83C2E828813F71 /* NSURL+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9CB4F094DD5E0D865B155D /* NSURL+PXQuisite.m */; };
+		868828583E99EA562CA3952F /* NSArray+LINQ_Projection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B063366451EBBAAA038E58D /* NSArray+LINQ_Projection.m */; };
+		8BC53BEAD41DC757410BCB7F /* NSArray+LINQ_Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD7FDCD273993C1871D059B /* NSArray+LINQ_Sorting.m */; };
+		8D7909104899B8863C390350 /* NSException+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B03F4F496ECE4BF19E6784 /* NSException+PXQuisite.h */; };
+		8F60A3F5AAD12E755EFAF66D /* NSMutableDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = A7713E1480D9A16599C79BF1 /* NSMutableDictionary+PXQuisite.m */; };
+		8FF64626BDC882AC04ABA32D /* NSArray+LINQ_Quantifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 109142B5FADF21D294C667E7 /* NSArray+LINQ_Quantifier.h */; };
+		91D21977CB4DC982B244C5BD /* NSDictionary+LINQ_Filtering.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AD5BC680C929B5E52410CE /* NSDictionary+LINQ_Filtering.h */; };
+		930EF9FACB2AB4B62EE8E6E1 /* NSMutableDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = A7713E1480D9A16599C79BF1 /* NSMutableDictionary+PXQuisite.m */; };
+		96594FB65967E0AA6D4E42CB /* LINQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F34D718E9BAE77D8A77D7EE /* LINQ.h */; };
+		97D87763F15EC1E88CB1E499 /* NSArray+LINQ_Generation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD647C270A3B1939010FFDCF /* NSArray+LINQ_Generation.h */; };
+		98AA8C8AE08DD4F24A0C1D78 /* NSMutableArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2B6AB09868BE91B5C4EC63 /* NSMutableArray+PXQuisite.h */; };
+		9975305965D4BD31446B611B /* UIApplication+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6A3B7400EC93CF29C14981 /* UIApplication+PXQuisite.h */; };
+		9A8219422061FF07B79B9EB3 /* NSDateFormatter+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB0362C82E0ABE61052B5DF /* NSDateFormatter+PXQuisite.h */; };
+		9B5F4CCF6AF9BE77948EFE85 /* NSArray+LINQ_Quantifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 109142B5FADF21D294C667E7 /* NSArray+LINQ_Quantifier.h */; };
+		9BF6A182BD6678C1C6B9E108 /* Pods-Tests-LINQ4Obj-C-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 139D8A601873B04FF6087245 /* Pods-Tests-LINQ4Obj-C-dummy.m */; };
+		9DFA4038C64CB94799C28E39 /* UINavigationController+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C9824DA66C7A48993C865C18 /* UINavigationController+PXQuisite.m */; };
+		9E6A917FE33B2A1C9F518B85 /* NSError+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = F2506BB132D546BF58527FDE /* NSError+PXQuisite.h */; };
+		A161F9E3AD57D5B815AED652 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6911699A728B57E68D88FB84 /* QuartzCore.framework */; };
+		A261DF3D99E1C399696DCB79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F82813E5C59E22D1104D508 /* UIKit.framework */; };
+		A3F8A4FCA9AA6378A972935E /* NSDictionary+LINQ_Aggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FAB0DFDEDB781B0B0BC955 /* NSDictionary+LINQ_Aggregation.h */; };
+		A9086CDA226F37F795FE49B8 /* NSDictionary+LINQ_Aggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44217495FF47366C4BC80122 /* NSDictionary+LINQ_Aggregation.m */; };
+		A9A5C3DF48BE7193F63A2A41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BB8C3F74CB8C7200CA63C /* CoreGraphics.framework */; };
+		AA5598CE1C150B4D98782837 /* NSManagedObject+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E56423869847211E34FC4BE /* NSManagedObject+PXQuisite.h */; };
+		AAB57966D224CDE795E9BFF8 /* NSArray+LINQ_Projection.h in Headers */ = {isa = PBXBuildFile; fileRef = 024A89E88ACC5A40FD5A5B15 /* NSArray+LINQ_Projection.h */; };
+		AAF64AA5FE3602711534F1AA /* NSPersistentStoreCoordinator+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2EB37926851892CD898D58 /* NSPersistentStoreCoordinator+PXQuisite.m */; };
+		ABE767DC9D3D2E1F172D3563 /* Pods-PXQSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C217DE2AA6DD088554D772 /* Pods-PXQSpinner-dummy.m */; };
+		AC97011A9E7A553A4ACA8D50 /* NSAttributeDescription+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8C02ADA04CCD5B8D021066 /* NSAttributeDescription+PXQuisite.h */; };
+		AD879C9691879A35B9EF8497 /* NSDictionary+LINQ_Filtering.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AD5BC680C929B5E52410CE /* NSDictionary+LINQ_Filtering.h */; };
+		ADAD830A411B2C0F01898CE5 /* NSPersistentStore+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFC63EA8FA71B7AB61515EE /* NSPersistentStore+PXQuisite.h */; };
+		ADCD08508DD6B50D5AC8E998 /* NSDateFormatter+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B2C8D85F252E55091C8D9D /* NSDateFormatter+PXQuisite.m */; };
+		AF0DD027000E6C3EA5C329A7 /* UIView+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 062B1877F3A09A7224246AA0 /* UIView+PXQuisite.m */; };
+		AFA54FA4C2B95B82B01B2BAC /* UIScreen+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E8F84059DDA016E96A6717 /* UIScreen+PXQuisite.m */; };
+		AFB99E31CC8785564FC0C5A2 /* NSEntityDescription+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BAF36D0FA37F6D46FF5A14 /* NSEntityDescription+PXQuisite.m */; };
+		B0C83312AF1587B61B7027AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A2C58D524B4B820638A78A /* Foundation.framework */; };
+		B24344975D476459B6FFC8FA /* NSBundle+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D91479E5AC412D20CA452 /* NSBundle+PXQuisite.m */; };
+		B72AD862EB497930C87F4685 /* NSArray+LINQ_Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = B755BBE548F346275D5B6654 /* NSArray+LINQ_Filtering.m */; };
+		B771C94EDD2523EED727F685 /* NSDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BB1B7211ACB17A85FE1C28 /* NSDictionary+PXQuisite.h */; };
+		B81AE0168BA60B7A04096ED4 /* NSArray+LINQ_Generation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD647C270A3B1939010FFDCF /* NSArray+LINQ_Generation.h */; };
+		B90DC50371F1D0618720364B /* NSDate+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF042C0ED2A1BED2213100C /* NSDate+PXQuisite.h */; };
+		BA6A0D9BE9C833C5ED8033BC /* NSDictionary+LINQ_Aggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44217495FF47366C4BC80122 /* NSDictionary+LINQ_Aggregation.m */; };
+		BAC413B6F57350B16BEC7EDE /* PXQuisiteExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FE115EE563A82065E5784D2D /* PXQuisiteExtensions.h */; };
+		BC22E13D130D2BC5F16E3F58 /* NSMutableDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E41D6F52F3731CE865FCB2D /* NSMutableDictionary+PXQuisite.h */; };
+		BDBF5E4648B4918C98C2AD36 /* NSArray+LINQ.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC05A62580DE8A129FF7376 /* NSArray+LINQ.h */; };
+		C040A3243AE47F86C8BF2248 /* UIScreenMode+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BB1501AECCD765114236F0 /* UIScreenMode+PXQuisite.m */; };
+		C18149E9329F01AC9E521DAD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F4033A5F744F6154CCFD57 /* CoreData.framework */; };
+		C24926EE9E1F888376526FBE /* NSPersistentStoreCoordinator+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0693435E94F44B686991BA9C /* NSPersistentStoreCoordinator+PXQuisite.h */; };
+		C2658B5B69E878E957F9FDE1 /* NSArray+LINQ_Projection.h in Headers */ = {isa = PBXBuildFile; fileRef = 024A89E88ACC5A40FD5A5B15 /* NSArray+LINQ_Projection.h */; };
+		C2AA8FCC52B4B35038DD4088 /* UIDevice+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C4F95DA501FCB621E42C30 /* UIDevice+PXQuisite.m */; };
+		C2F5A512BAD0F41BA7BD4DE3 /* NSArray+LINQ_Aggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = F74677F974AF08367DCB2EA4 /* NSArray+LINQ_Aggregation.h */; };
+		C5C3E984AF786C3022973DAC /* UIApplication+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C710D6ABF70646EB872BFC2D /* UIApplication+PXQuisite.m */; };
+		C63AA3C85DD773E910DEE104 /* NSPersistentStore+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 500DDDD3FBF10C3CF891EFF5 /* NSPersistentStore+PXQuisite.m */; };
+		C6CA3C82ACEA32DE062E1BB8 /* NSDictionary+LINQ_Quantifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C5596D60E33EBA0803FA1 /* NSDictionary+LINQ_Quantifier.m */; };
+		C6E5F607454F461E3DA914D3 /* NSDate+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 478F272F35F6951EC08069E1 /* NSDate+PXQuisite.m */; };
+		C8402E4AAF35CA5D7B20E50D /* NSString+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 902F5F4C0E33936B4979785A /* NSString+PXQuisite.m */; };
+		C84C264F1F46AE1F943F6E86 /* UIDevice+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 701ED80B5B99579C62F26397 /* UIDevice+PXQuisite.h */; };
+		C869B6A0C58406227FD9CC50 /* UINavigationController+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 136DF73B8D5BC218E80BC871 /* UINavigationController+PXQuisite.h */; };
+		C8B8850C338D8C1E7934D2D4 /* NSPropertyDescription+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C784ED913C3E759A7776F05D /* NSPropertyDescription+PXQuisite.m */; };
+		C92F37BA9318E4E0745CD84F /* UIApplication+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6A3B7400EC93CF29C14981 /* UIApplication+PXQuisite.h */; };
+		CA223FD5C26500A048A038F4 /* NSDictionary+LINQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3F011A0598FFB24D347FDB /* NSDictionary+LINQ.h */; };
+		CA43A461997D0F3E8EB3483E /* UIScreen+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 21440C6FA8019EA096ED0ECA /* UIScreen+PXQuisite.h */; };
+		CAE5C4B68B10FFECBBB00DCD /* NSManagedObjectContext+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = C961275B93412AF7C49810CB /* NSManagedObjectContext+PXQuisite.h */; };
+		CB3EEBE9C0E4C36692CCA932 /* UIView+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D982BA68BAC7798C9DA1231 /* UIView+PXQuisite.h */; };
+		CB73B8582DCCFF0433C39C89 /* UIApplication+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = C710D6ABF70646EB872BFC2D /* UIApplication+PXQuisite.m */; };
+		CBFAB5519D44F0284DE3B945 /* MKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C09F187E471B7CC6FF687E5 /* MKMacros.h */; };
+		CE257FABC9A3CC461F6F603E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6911699A728B57E68D88FB84 /* QuartzCore.framework */; };
+		CE350A32CF4FA41376E1059A /* NSException+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E539B87AC9EBD29147D7B307 /* NSException+PXQuisite.m */; };
+		CE363819983BF253370F9A35 /* NSArray+LINQ.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC05A62580DE8A129FF7376 /* NSArray+LINQ.h */; };
+		CE3D7265184E4B00FBC41ADC /* NSEntityDescription+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8232F4C6393C16652C3B8D /* NSEntityDescription+PXQuisite.h */; };
+		D0E81797013CC2AC0CF5FFC1 /* NSArray+LINQ_Converting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E37D6D220C1AFF85947001C /* NSArray+LINQ_Converting.h */; };
+		D3410712C3E6175551C4435F /* NSManagedObjectModel+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 948CD72EA087593D97A72DAA /* NSManagedObjectModel+PXQuisite.m */; };
+		D3B35873D84B60EF30E9EBC1 /* NSArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC009AB13B8E680600A9A9 /* NSArray+PXQuisite.m */; };
+		D6B9062A577744A78AA799CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F82813E5C59E22D1104D508 /* UIKit.framework */; };
+		D81AB8D772B3AFADA7A299FE /* NSArray+LINQ_Grouping.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1A49DBF57C00B3CC783B68 /* NSArray+LINQ_Grouping.h */; };
+		D855E31333FF5DDC8B768DED /* NSDictionary+LINQ_Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = 2009B282547F5FCA0F2416EF /* NSDictionary+LINQ_Filtering.m */; };
+		D870C40B437301B9A0ABE820 /* NSManagedObjectModel+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAA0736034A9624E1018AFE /* NSManagedObjectModel+PXQuisite.h */; };
+		DA1CEDC9DDC38F5ED0B82878 /* UIImage+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = C843A9CFFA3E2D743677D9BF /* UIImage+PXQuisite.h */; };
+		DB18074630D5679065078309 /* NSManagedObjectModel+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 948CD72EA087593D97A72DAA /* NSManagedObjectModel+PXQuisite.m */; };
+		DB7B080221457E93AE714C6E /* NSArray+LINQ_Partitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F45C8730EAF443B4ED4EAF /* NSArray+LINQ_Partitioning.h */; };
+		DBF01B210154F31EA632443F /* NSBundle+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F251F97247879F30BED629 /* NSBundle+PXQuisite.h */; };
+		DCA75C67D43AFE673BD568D1 /* NSURL+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EE9365668702D7F97F201B /* NSURL+PXQuisite.h */; };
+		DDC73EE4DD5097EC1E83C3F9 /* NSError+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = F2506BB132D546BF58527FDE /* NSError+PXQuisite.h */; };
+		DF4AD9A9C664300619479FFA /* NSArray+LINQ_Filtering.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3CDD3C27E961F327277487 /* NSArray+LINQ_Filtering.h */; };
+		DFE648D722B97371E1A40BC9 /* NSArray+LINQ_Projection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B063366451EBBAAA038E58D /* NSArray+LINQ_Projection.m */; };
+		DFEB7214264534AB2B55A028 /* UIScreenMode+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EED11F2C7A6435BC57849F /* UIScreenMode+PXQuisite.h */; };
+		E247CB92B5ADCA4EC285A8ED /* NSObject+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D00EF0F6A719A0FD0F8F7E5 /* NSObject+PXQuisite.m */; };
+		E2D2B4805BA13AB6304A5466 /* NSDictionary+LINQ_Quantifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 135FA39606FC521EA3BB463B /* NSDictionary+LINQ_Quantifier.h */; };
+		E7D0A3D532543A9BC9126020 /* UIView+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D982BA68BAC7798C9DA1231 /* UIView+PXQuisite.h */; };
+		E7E4E835E4306142AEA073E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BB8C3F74CB8C7200CA63C /* CoreGraphics.framework */; };
+		E95E84117476643266551EB4 /* NSArray+LINQ_Partitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F07EAD307B25BF63DCEE9C /* NSArray+LINQ_Partitioning.m */; };
+		E98610D2BFBA94E89F212A33 /* NSManagedObjectContext+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = C961275B93412AF7C49810CB /* NSManagedObjectContext+PXQuisite.h */; };
+		EAF300CB13B2CAFFD931EBB9 /* NSArray+LINQ_Quantifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 81979210C6FE041800446868 /* NSArray+LINQ_Quantifier.m */; };
+		EAF67E6B47EB3783622AE4DD /* NSDateFormatter+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B2C8D85F252E55091C8D9D /* NSDateFormatter+PXQuisite.m */; };
+		EB2B94B093633044A3A3220E /* NSArray+LINQ_Converting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A20B506A3BE8F2EF2ABEEE8 /* NSArray+LINQ_Converting.m */; };
+		EC0862FA7C9F9BAAB6CA6246 /* NSString+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E1E44D814C1144662DD60D /* NSString+PXQuisite.h */; };
+		ED0135647AC8F7E6973B5A2E /* PXQSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 700A572FA27D379AF18B44E8 /* PXQSpinner.m */; };
+		EDD5D27BC606AB545626FCA0 /* NSArray+LINQ_Filtering.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3CDD3C27E961F327277487 /* NSArray+LINQ_Filtering.h */; };
+		EE88517B10FC97CE621B91AF /* NSArray+LINQ_Converting.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A20B506A3BE8F2EF2ABEEE8 /* NSArray+LINQ_Converting.m */; };
+		EF4D13BF9A422E04F8B822DE /* NSArray+LINQ_Grouping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CF5C9DD7B989E2C44297C /* NSArray+LINQ_Grouping.m */; };
+		EF79E417A5555A4CCE6330D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F82813E5C59E22D1104D508 /* UIKit.framework */; };
+		F1930ED189EC27E8267B1FBC /* NSObject+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C334F5701D4D18383B7878 /* NSObject+PXQuisite.h */; };
+		F1999869788611B671D95161 /* NSURL+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9CB4F094DD5E0D865B155D /* NSURL+PXQuisite.m */; };
+		F320FB00B083D777F1CDE9F7 /* NSArray+LINQ_Aggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = F74677F974AF08367DCB2EA4 /* NSArray+LINQ_Aggregation.h */; };
+		F52D649E44E00D3C54101F5A /* NSArray+LINQ_Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = B755BBE548F346275D5B6654 /* NSArray+LINQ_Filtering.m */; };
+		F54CC0005D7381FD848803AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F82813E5C59E22D1104D508 /* UIKit.framework */; };
+		F86F4C558EF425A7EBDE2F49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6911699A728B57E68D88FB84 /* QuartzCore.framework */; };
+		FA50D77B7E46C6BE712EE9D3 /* NSArray+LINQ_Aggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A158A653986D8002CDA16D /* NSArray+LINQ_Aggregation.m */; };
+		FACDACA61F262A1456BBA72E /* NSManagedObjectModel+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAA0736034A9624E1018AFE /* NSManagedObjectModel+PXQuisite.h */; };
+		FAF73B30E474003005DEC2CE /* NSArray+LINQ_Grouping.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1A49DBF57C00B3CC783B68 /* NSArray+LINQ_Grouping.h */; };
+		FC093199F68B0B4416A07EC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BB8C3F74CB8C7200CA63C /* CoreGraphics.framework */; };
+		FCF61AF38A1C290E2B0351AA /* Pods-PXQSpinner-PXQSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E4700893D3F591E165AE1 /* Pods-PXQSpinner-PXQSpinner-dummy.m */; };
+		FD2E518FD43A04C610860601 /* NSDictionary+LINQ_Aggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FAB0DFDEDB781B0B0BC955 /* NSDictionary+LINQ_Aggregation.h */; };
+		FE5F28928EB66E8BA7F01D0E /* NSDate+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF042C0ED2A1BED2213100C /* NSDate+PXQuisite.h */; };
+		FE705AF75E097F2DF262A51C /* Pods-Tests-PXQSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA689FE7183DA307972ED9 /* Pods-Tests-PXQSpinner-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		19063231FA07AC3E5F0AFCE7 /* PBXContainerItemProxy */ = {
+		12390E409F6E95D3D1E39D41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 53CE83CC0DA44F3D15E9CFF4 /* Project object */;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9262BDC0DF9EC7D1CBD7CAF0;
-			remoteInfo = "Pods-PXQSpinner-PXQSpinner-PXQSpinner";
+			remoteGlobalIDString = 65E57C3FB3A3476C80F76D86;
+			remoteInfo = "Pods-PXQSpinner-PXQuisiteExtensions";
 		};
-		9829E2BE0D32C044EDAA4BE7 /* PBXContainerItemProxy */ = {
+		3A5E70A3D0A69AA7E68876B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 53CE83CC0DA44F3D15E9CFF4 /* Project object */;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 39D3E663E7892E6D09110A5D;
-			remoteInfo = "Pods-Tests-PXQSpinner";
+			remoteGlobalIDString = 1124B3C9C31A0B21DBF7BBEC;
+			remoteInfo = "Pods-PXQSpinner-LINQ4Obj-C";
 		};
-		A812D81F9718D8B9DC29A166 /* PBXContainerItemProxy */ = {
+		475821448502EA7C617D7F02 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 53CE83CC0DA44F3D15E9CFF4 /* Project object */;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE6CB198CA93265E7AE791F1;
+			remoteGlobalIDString = 47E92514EB84C2B1FD16D800;
+			remoteInfo = "Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions";
+		};
+		4EDE2CBE5E184707A9A918A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4030F45C34DB0E072726C9D7;
 			remoteInfo = "Pods-PXQSpinner-PXQSpinner";
 		};
-		F35881E4C26EB9118E7B9CCE /* PBXContainerItemProxy */ = {
+		624D901F1D1BABF86FB54615 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 53CE83CC0DA44F3D15E9CFF4 /* Project object */;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 045615A37675B40E54E598F2;
+			remoteGlobalIDString = EBBC2212059F1332DA352E2C;
+			remoteInfo = "Pods-PXQSpinner-PXQSpinner-PXQSpinner";
+		};
+		67E412E1EE42E676CDE09CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4996A750B402D94AFB859550;
+			remoteInfo = "Pods-Tests-PXQuisiteExtensions";
+		};
+		77587076581C8E43414A102C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1124B3C9C31A0B21DBF7BBEC;
+			remoteInfo = "Pods-PXQSpinner-LINQ4Obj-C";
+		};
+		831152719F31F5B0463E368E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E902F968946F137F52EBFBEB;
+			remoteInfo = "Pods-Tests-PXQSpinner";
+		};
+		96EF29816FA1616BAD60EF72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E57C3FB3A3476C80F76D86;
+			remoteInfo = "Pods-PXQSpinner-PXQuisiteExtensions";
+		};
+		A14F5F4B8851D61413353960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA4C3C5CC9727848B6F8559;
+			remoteInfo = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
+		};
+		B0C57F328E5F8EABD34E6E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB259C32B2405EE4BB274F01;
 			remoteInfo = "Pods-Tests-PXQSpinner-PXQSpinner";
+		};
+		EA7E694D9CE72A59ECDBCDE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4996A750B402D94AFB859550;
+			remoteInfo = "Pods-Tests-PXQuisiteExtensions";
+		};
+		F8826CF7450670354C8386C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27912BAF9BDBE721C6FAB33D;
+			remoteInfo = "Pods-Tests-LINQ4Obj-C";
+		};
+		FB2939E6B0086F7C74077102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80460DE6FD9C18A1C044CFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27912BAF9BDBE721C6FAB33D;
+			remoteInfo = "Pods-Tests-LINQ4Obj-C";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CC0F4D69FC6B543A3990C0E /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		0CF2CDF3719B62FE0F3150F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		100AA7DAB9F867DE1C5B326D /* PXQSpinner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQSpinner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		22628BC2006A7E4ECC65D4FC /* libPods-PXQSpinner-PXQSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQSpinner-PXQSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28B13B230F1F213322B66A1F /* Pods-PXQSpinner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXQSpinner-resources.sh"; sourceTree = "<group>"; };
-		29850DEBBA12AAEF0032429A /* Pods-PXQSpinner-PXQSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner-PXQSpinner-Private.xcconfig"; sourceTree = "<group>"; };
-		2A86778D230A35CA20607F8D /* libPods-PXQSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2ED29DF35BA2D3442C3320F0 /* PXQSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXQSpinner.h; sourceTree = "<group>"; };
-		388891275ABC41D882EF778E /* PXQSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXQSpinner.m; sourceTree = "<group>"; };
-		3C0DD28C41FC6513A3E75EA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		42FF5BC624DA78AE67666843 /* Pods-PXQSpinner-PXQSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQSpinner-PXQSpinner-dummy.m"; sourceTree = "<group>"; };
-		435AA4EE4ACC42C881C8486A /* Pods-Tests-PXQSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXQSpinner-dummy.m"; path = "../Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-dummy.m"; sourceTree = "<group>"; };
-		49ECA6A3A9AC84D7FDFC5DB0 /* Pods-Tests-PXQSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQSpinner.xcconfig"; path = "../Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner.xcconfig"; sourceTree = "<group>"; };
-		4B9CAC1EFAE362CAF03E8960 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C57443E06620ACF22F4B69A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E068F3074E119680FFAA31F /* Pods-PXQSpinner-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQSpinner-environment.h"; sourceTree = "<group>"; };
-		582C474FA53B61268B250958 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		64A653630E129EAAFC5EFD40 /* Pods-PXQSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner.debug.xcconfig"; sourceTree = "<group>"; };
-		81E4A4F4B9D5C13E0E886DB6 /* Pods-PXQSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner.release.xcconfig"; sourceTree = "<group>"; };
-		89381DBC96124A8E91EC3368 /* Pods-PXQSpinner-PXQSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQSpinner-PXQSpinner-prefix.pch"; sourceTree = "<group>"; };
-		8D2E7E76208399DEC15D67AA /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		8E7E466D73084D7B348A7149 /* Pods-Tests-PXQSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXQSpinner-prefix.pch"; path = "../Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-prefix.pch"; sourceTree = "<group>"; };
-		913E834996CA07779C6A888F /* libPods-Tests-PXQSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXQSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD01171CF0FE9962BA815E99 /* Pods-PXQSpinner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXQSpinner-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE428958D6D4550D7B01B3A7 /* Pods-PXQSpinner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXQSpinner-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA27D429943B5B18F8CB2EAD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2F784030B1A7D48ED078797 /* PXQSpinner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQSpinner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7128D0535380973CC435A97 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CB33B0E3BB84D4C0956844C7 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB2A2F98EB5050A2C8C9D43D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		DBD60BD529571AB4A88D6B9F /* Pods-PXQSpinner-PXQSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner-PXQSpinner.xcconfig"; sourceTree = "<group>"; };
-		E594E1BDE9FE552BEB0D3C07 /* Pods-Tests-PXQSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQSpinner-Private.xcconfig"; path = "../Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-Private.xcconfig"; sourceTree = "<group>"; };
-		E878A2D72E1D978375A91637 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		F9F6C3938DC389657B7FFB49 /* Pods-PXQSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQSpinner-dummy.m"; sourceTree = "<group>"; };
-		FF85999F611C5DEA018472EA /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		024A89E88ACC5A40FD5A5B15 /* NSArray+LINQ_Projection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Projection.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Projection.h"; sourceTree = "<group>"; };
+		03EA622C11F06CD77267DBE6 /* NSDictionary+LINQ_Partitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LINQ_Partitioning.h"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Partitioning.h"; sourceTree = "<group>"; };
+		05B94181ABD4FDC84D15CDB2 /* Pods-PXQSpinner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXQSpinner-resources.sh"; sourceTree = "<group>"; };
+		05F07EAD307B25BF63DCEE9C /* NSArray+LINQ_Partitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Partitioning.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Partitioning.m"; sourceTree = "<group>"; };
+		062B1877F3A09A7224246AA0 /* UIView+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PXQuisite.m"; path = "Pod/Classes/UIView+PXQuisite.m"; sourceTree = "<group>"; };
+		0693435E94F44B686991BA9C /* NSPersistentStoreCoordinator+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+PXQuisite.h"; path = "Pod/Classes/NSPersistentStoreCoordinator+PXQuisite.h"; sourceTree = "<group>"; };
+		071775BC69FA6BF6D2FDA490 /* Pods-Tests-PXQSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXQSpinner-prefix.pch"; path = "../Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-prefix.pch"; sourceTree = "<group>"; };
+		07884507E75480546DF89F8B /* libPods-Tests-LINQ4Obj-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-LINQ4Obj-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFFD934179FDB6C5826041A /* NSDictionary+LINQ_Generation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LINQ_Generation.m"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Generation.m"; sourceTree = "<group>"; };
+		0BFA689FE7183DA307972ED9 /* Pods-Tests-PXQSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXQSpinner-dummy.m"; path = "../Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-dummy.m"; sourceTree = "<group>"; };
+		0F3BB8C3F74CB8C7200CA63C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0F6A3B7400EC93CF29C14981 /* UIApplication+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+PXQuisite.h"; path = "Pod/Classes/UIApplication+PXQuisite.h"; sourceTree = "<group>"; };
+		109142B5FADF21D294C667E7 /* NSArray+LINQ_Quantifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Quantifier.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Quantifier.h"; sourceTree = "<group>"; };
+		135FA39606FC521EA3BB463B /* NSDictionary+LINQ_Quantifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LINQ_Quantifier.h"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Quantifier.h"; sourceTree = "<group>"; };
+		136DF73B8D5BC218E80BC871 /* UINavigationController+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PXQuisite.h"; path = "Pod/Classes/UINavigationController+PXQuisite.h"; sourceTree = "<group>"; };
+		139D8A601873B04FF6087245 /* Pods-Tests-LINQ4Obj-C-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-LINQ4Obj-C-dummy.m"; path = "../Pods-Tests-LINQ4Obj-C/Pods-Tests-LINQ4Obj-C-dummy.m"; sourceTree = "<group>"; };
+		13A7F9EFD4B91D87D7D1F6F3 /* PXQuisiteExtensions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteExtensions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D98FC044490E72087EF526 /* libPods-PXQSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C09F187E471B7CC6FF687E5 /* MKMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKMacros.h; path = Source/Externals/MKMacros.h; sourceTree = "<group>"; };
+		1CD4F0D2288EA91B8E998ABA /* Pods-PXQSpinner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXQSpinner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D529BBAA19985F7738A9463 /* Pods-PXQSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner.debug.xcconfig"; sourceTree = "<group>"; };
+		1D7ECC7C832B0A83EF51A577 /* Pods-Tests-LINQ4Obj-C-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-LINQ4Obj-C-Private.xcconfig"; path = "../Pods-Tests-LINQ4Obj-C/Pods-Tests-LINQ4Obj-C-Private.xcconfig"; sourceTree = "<group>"; };
+		2009B282547F5FCA0F2416EF /* NSDictionary+LINQ_Filtering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LINQ_Filtering.m"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Filtering.m"; sourceTree = "<group>"; };
+		21440C6FA8019EA096ED0ECA /* UIScreen+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+PXQuisite.h"; path = "Pod/Classes/UIScreen+PXQuisite.h"; sourceTree = "<group>"; };
+		22AD5BC680C929B5E52410CE /* NSDictionary+LINQ_Filtering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LINQ_Filtering.h"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Filtering.h"; sourceTree = "<group>"; };
+		22E578B994958F8DF16751DB /* NSRelationshipDescription+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+PXQuisite.h"; path = "Pod/Classes/NSRelationshipDescription+PXQuisite.h"; sourceTree = "<group>"; };
+		25E566BDBBC16AB69FAD28CF /* NSMutableArray+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+PXQuisite.m"; path = "Pod/Classes/NSMutableArray+PXQuisite.m"; sourceTree = "<group>"; };
+		296FB5D4D494233F3A75EF87 /* NSDictionary+LINQ_Converting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LINQ_Converting.h"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Converting.h"; sourceTree = "<group>"; };
+		29A158A653986D8002CDA16D /* NSArray+LINQ_Aggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Aggregation.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Aggregation.m"; sourceTree = "<group>"; };
+		2AB4D6028E14ADB6F1D5BAF5 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C4E4700893D3F591E165AE1 /* Pods-PXQSpinner-PXQSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQSpinner-PXQSpinner-dummy.m"; sourceTree = "<group>"; };
+		301D8E903214C0C03C589D15 /* NSArray+LINQ_Sets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Sets.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Sets.h"; sourceTree = "<group>"; };
+		32C334F5701D4D18383B7878 /* NSObject+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXQuisite.h"; path = "Pod/Classes/NSObject+PXQuisite.h"; sourceTree = "<group>"; };
+		3324F457F97753AF8FB3B57F /* Pods-PXQSpinner-PXQSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQSpinner-PXQSpinner-prefix.pch"; sourceTree = "<group>"; };
+		35107E073217499F5EB04DF9 /* NSAttributeDescription+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+PXQuisite.m"; path = "Pod/Classes/NSAttributeDescription+PXQuisite.m"; sourceTree = "<group>"; };
+		37ACA7D7750956C4F527B291 /* libPods-Tests-PXQuisiteExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXQuisiteExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BAF36D0FA37F6D46FF5A14 /* NSEntityDescription+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+PXQuisite.m"; path = "Pod/Classes/NSEntityDescription+PXQuisite.m"; sourceTree = "<group>"; };
+		391B5A52E32A4F894B8BDE0D /* Pods-Tests-PXQSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQSpinner.xcconfig"; path = "../Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner.xcconfig"; sourceTree = "<group>"; };
+		3CE1CA78F77FB1F96E4ECDA6 /* NSManagedObjectContext+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+PXQuisite.m"; path = "Pod/Classes/NSManagedObjectContext+PXQuisite.m"; sourceTree = "<group>"; };
+		3D982BA68BAC7798C9DA1231 /* UIView+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PXQuisite.h"; path = "Pod/Classes/UIView+PXQuisite.h"; sourceTree = "<group>"; };
+		3E37D6D220C1AFF85947001C /* NSArray+LINQ_Converting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Converting.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Converting.h"; sourceTree = "<group>"; };
+		3F82813E5C59E22D1104D508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		43EE9365668702D7F97F201B /* NSURL+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+PXQuisite.h"; path = "Pod/Classes/NSURL+PXQuisite.h"; sourceTree = "<group>"; };
+		44217495FF47366C4BC80122 /* NSDictionary+LINQ_Aggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LINQ_Aggregation.m"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Aggregation.m"; sourceTree = "<group>"; };
+		478F272F35F6951EC08069E1 /* NSDate+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+PXQuisite.m"; path = "Pod/Classes/NSDate+PXQuisite.m"; sourceTree = "<group>"; };
+		48EB99C251315D12BBFD28F7 /* NSRelationshipDescription+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+PXQuisite.m"; path = "Pod/Classes/NSRelationshipDescription+PXQuisite.m"; sourceTree = "<group>"; };
+		4A20B506A3BE8F2EF2ABEEE8 /* NSArray+LINQ_Converting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Converting.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Converting.m"; sourceTree = "<group>"; };
+		4A910EB5A83AC684F102CACD /* Pods-PXQSpinner-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQSpinner-environment.h"; sourceTree = "<group>"; };
+		4AD8D1859113A550EA556510 /* Pods-PXQSpinner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXQSpinner-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C1A49DBF57C00B3CC783B68 /* NSArray+LINQ_Grouping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Grouping.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Grouping.h"; sourceTree = "<group>"; };
+		4E56423869847211E34FC4BE /* NSManagedObject+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+PXQuisite.h"; path = "Pod/Classes/NSManagedObject+PXQuisite.h"; sourceTree = "<group>"; };
+		500DDDD3FBF10C3CF891EFF5 /* NSPersistentStore+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+PXQuisite.m"; path = "Pod/Classes/NSPersistentStore+PXQuisite.m"; sourceTree = "<group>"; };
+		52F8E91D4B4B1A65DB965762 /* Pods-PXQSpinner-LINQ4Obj-C-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner-LINQ4Obj-C-Private.xcconfig"; sourceTree = "<group>"; };
+		56D5DBFE273ADAC3C265D6DF /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDDBC3B5E51E95166487B49 /* Pods-PXQSpinner-LINQ4Obj-C-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQSpinner-LINQ4Obj-C-dummy.m"; sourceTree = "<group>"; };
+		5E41D6F52F3731CE865FCB2D /* NSMutableDictionary+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+PXQuisite.h"; path = "Pod/Classes/NSMutableDictionary+PXQuisite.h"; sourceTree = "<group>"; };
+		5E6CF5C9DD7B989E2C44297C /* NSArray+LINQ_Grouping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Grouping.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Grouping.m"; sourceTree = "<group>"; };
+		60E23DFA832C631DCED14A58 /* NSDictionary+LINQ_Sets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LINQ_Sets.h"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Sets.h"; sourceTree = "<group>"; };
+		61BB1501AECCD765114236F0 /* UIScreenMode+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreenMode+PXQuisite.m"; path = "Pod/Classes/UIScreenMode+PXQuisite.m"; sourceTree = "<group>"; };
+		61BB1B7211ACB17A85FE1C28 /* NSDictionary+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PXQuisite.h"; path = "Pod/Classes/NSDictionary+PXQuisite.h"; sourceTree = "<group>"; };
+		64EF56C3AA091A95C0D990E8 /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteExtensions-Private.xcconfig"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-Private.xcconfig"; sourceTree = "<group>"; };
+		66A3643ACB842F06DF188F08 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67F45C8730EAF443B4ED4EAF /* NSArray+LINQ_Partitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Partitioning.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Partitioning.h"; sourceTree = "<group>"; };
+		6911699A728B57E68D88FB84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6BD40F242FB87000A2BBC2F1 /* NSDictionary+LINQ_Partitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LINQ_Partitioning.m"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Partitioning.m"; sourceTree = "<group>"; };
+		6E554D6C40B6AC90AE81771D /* Pods-PXQSpinner-PXQuisiteExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner-PXQuisiteExtensions.xcconfig"; sourceTree = "<group>"; };
+		6F34D718E9BAE77D8A77D7EE /* LINQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LINQ.h; path = Source/LINQ.h; sourceTree = "<group>"; };
+		6FF042C0ED2A1BED2213100C /* NSDate+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+PXQuisite.h"; path = "Pod/Classes/NSDate+PXQuisite.h"; sourceTree = "<group>"; };
+		700A572FA27D379AF18B44E8 /* PXQSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXQSpinner.m; sourceTree = "<group>"; };
+		701ED80B5B99579C62F26397 /* UIDevice+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+PXQuisite.h"; path = "Pod/Classes/UIDevice+PXQuisite.h"; sourceTree = "<group>"; };
+		70391E527933654E321AA464 /* Pods-PXQSpinner-PXQuisiteExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner-PXQuisiteExtensions-Private.xcconfig"; sourceTree = "<group>"; };
+		712FA01955CD445277F0F7BB /* libPods-PXQSpinner-PXQSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQSpinner-PXQSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EED11F2C7A6435BC57849F /* UIScreenMode+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreenMode+PXQuisite.h"; path = "Pod/Classes/UIScreenMode+PXQuisite.h"; sourceTree = "<group>"; };
+		75A8FEC799B81613B6141DDA /* NSArray+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PXQuisite.h"; path = "Pod/Classes/NSArray+PXQuisite.h"; sourceTree = "<group>"; };
+		75AC009AB13B8E680600A9A9 /* NSArray+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PXQuisite.m"; path = "Pod/Classes/NSArray+PXQuisite.m"; sourceTree = "<group>"; };
+		76BDB5AFD53748922F69274C /* Pods-PXQSpinner-PXQuisiteExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQSpinner-PXQuisiteExtensions-prefix.pch"; sourceTree = "<group>"; };
+		7965ECA1FADE6AA27C32E373 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7B063366451EBBAAA038E58D /* NSArray+LINQ_Projection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Projection.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Projection.m"; sourceTree = "<group>"; };
+		7CD867170EA186860204134F /* NSArray+LINQ_Sorting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Sorting.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Sorting.h"; sourceTree = "<group>"; };
+		7D104012230DEA8A83C4BCD6 /* Pods-Tests-LINQ4Obj-C.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-LINQ4Obj-C.xcconfig"; path = "../Pods-Tests-LINQ4Obj-C/Pods-Tests-LINQ4Obj-C.xcconfig"; sourceTree = "<group>"; };
+		7D5ECF585FFC05B39097F506 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E9CB4F094DD5E0D865B155D /* NSURL+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+PXQuisite.m"; path = "Pod/Classes/NSURL+PXQuisite.m"; sourceTree = "<group>"; };
+		80B2C8D85F252E55091C8D9D /* NSDateFormatter+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+PXQuisite.m"; path = "Pod/Classes/NSDateFormatter+PXQuisite.m"; sourceTree = "<group>"; };
+		81979210C6FE041800446868 /* NSArray+LINQ_Quantifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Quantifier.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Quantifier.m"; sourceTree = "<group>"; };
+		85FEF264C36D96DE629EA78A /* NSArray+LINQ_Sets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Sets.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Sets.m"; sourceTree = "<group>"; };
+		87B03F4F496ECE4BF19E6784 /* NSException+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+PXQuisite.h"; path = "Pod/Classes/NSException+PXQuisite.h"; sourceTree = "<group>"; };
+		88AC47640B43EA458D7CAE0E /* Pods-PXQSpinner-LINQ4Obj-C-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQSpinner-LINQ4Obj-C-prefix.pch"; sourceTree = "<group>"; };
+		8C3F011A0598FFB24D347FDB /* NSDictionary+LINQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LINQ.h"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ.h"; sourceTree = "<group>"; };
+		8DFC63EA8FA71B7AB61515EE /* NSPersistentStore+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+PXQuisite.h"; path = "Pod/Classes/NSPersistentStore+PXQuisite.h"; sourceTree = "<group>"; };
+		8E7C4C733FB1413089D297FE /* NSDictionary+LINQ_Sets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LINQ_Sets.m"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Sets.m"; sourceTree = "<group>"; };
+		8F3A6B1A6A675CE2F2736C71 /* NSDictionary+LINQ_Converting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LINQ_Converting.m"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Converting.m"; sourceTree = "<group>"; };
+		902F5F4C0E33936B4979785A /* NSString+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PXQuisite.m"; path = "Pod/Classes/NSString+PXQuisite.m"; sourceTree = "<group>"; };
+		948CD72EA087593D97A72DAA /* NSManagedObjectModel+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+PXQuisite.m"; path = "Pod/Classes/NSManagedObjectModel+PXQuisite.m"; sourceTree = "<group>"; };
+		96A2C58D524B4B820638A78A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		99506414DA4BCA606D9F0299 /* Pods-Tests-PXQuisiteExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXQuisiteExtensions-dummy.m"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-dummy.m"; sourceTree = "<group>"; };
+		9ADA76C23EF227E260A51D36 /* NSDictionary+LINQ_Generation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LINQ_Generation.h"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Generation.h"; sourceTree = "<group>"; };
+		9B2EB37926851892CD898D58 /* NSPersistentStoreCoordinator+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+PXQuisite.m"; path = "Pod/Classes/NSPersistentStoreCoordinator+PXQuisite.m"; sourceTree = "<group>"; };
+		9D00EF0F6A719A0FD0F8F7E5 /* NSObject+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PXQuisite.m"; path = "Pod/Classes/NSObject+PXQuisite.m"; sourceTree = "<group>"; };
+		A15D91479E5AC412D20CA452 /* NSBundle+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+PXQuisite.m"; path = "Pod/Classes/NSBundle+PXQuisite.m"; sourceTree = "<group>"; };
+		A18C5596D60E33EBA0803FA1 /* NSDictionary+LINQ_Quantifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LINQ_Quantifier.m"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Quantifier.m"; sourceTree = "<group>"; };
+		A29E819F03F73B033F6B6AED /* libPods-Tests-PXQSpinner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXQSpinner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B4A239C973E50252EF2D1D /* Pods-PXQSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner.release.xcconfig"; sourceTree = "<group>"; };
+		A7713E1480D9A16599C79BF1 /* NSMutableDictionary+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+PXQuisite.m"; path = "Pod/Classes/NSMutableDictionary+PXQuisite.m"; sourceTree = "<group>"; };
+		A881F618187AD6123CD3B83F /* Pods-PXQSpinner-LINQ4Obj-C.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner-LINQ4Obj-C.xcconfig"; sourceTree = "<group>"; };
+		A8CA8F74E8049925D9BB27B9 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		A8E1E44D814C1144662DD60D /* NSString+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PXQuisite.h"; path = "Pod/Classes/NSString+PXQuisite.h"; sourceTree = "<group>"; };
+		ACA8BCB2CD5CFE5A6C93E0C1 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEB554E04FC31A4C743E26FE /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		AFC05A62580DE8A129FF7376 /* NSArray+LINQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ.h"; path = "Source/NSArray+LINQ/NSArray+LINQ.h"; sourceTree = "<group>"; };
+		B0D9B4DDD9324C598FF5B7A2 /* Pods-Tests-LINQ4Obj-C-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-LINQ4Obj-C-prefix.pch"; path = "../Pods-Tests-LINQ4Obj-C/Pods-Tests-LINQ4Obj-C-prefix.pch"; sourceTree = "<group>"; };
+		B0F4033A5F744F6154CCFD57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		B403451E61C67D19A0FB5C69 /* Pods-Tests-PXQuisiteExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXQuisiteExtensions-prefix.pch"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch"; sourceTree = "<group>"; };
+		B4947890EF98F57212EA9EEF /* Pods-PXQSpinner-PXQuisiteExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQSpinner-PXQuisiteExtensions-dummy.m"; sourceTree = "<group>"; };
+		B4FAB0DFDEDB781B0B0BC955 /* NSDictionary+LINQ_Aggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LINQ_Aggregation.h"; path = "Source/NSDictionary+LINQ/NSDictionary+LINQ_Aggregation.h"; sourceTree = "<group>"; };
+		B755BBE548F346275D5B6654 /* NSArray+LINQ_Filtering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Filtering.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Filtering.m"; sourceTree = "<group>"; };
+		B8E8F84059DDA016E96A6717 /* UIScreen+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+PXQuisite.m"; path = "Pod/Classes/UIScreen+PXQuisite.m"; sourceTree = "<group>"; };
+		BB8C02ADA04CCD5B8D021066 /* NSAttributeDescription+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+PXQuisite.h"; path = "Pod/Classes/NSAttributeDescription+PXQuisite.h"; sourceTree = "<group>"; };
+		BC94EA9A81A4484EB1964B80 /* Pods-PXQSpinner-PXQSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner-PXQSpinner-Private.xcconfig"; sourceTree = "<group>"; };
+		BCB0362C82E0ABE61052B5DF /* NSDateFormatter+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+PXQuisite.h"; path = "Pod/Classes/NSDateFormatter+PXQuisite.h"; sourceTree = "<group>"; };
+		C0801885DD6F123BDB6E51CB /* NSError+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+PXQuisite.m"; path = "Pod/Classes/NSError+PXQuisite.m"; sourceTree = "<group>"; };
+		C4F99DDE692F9109D92C5BCB /* libPods-PXQSpinner-PXQuisiteExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQSpinner-PXQuisiteExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C710D6ABF70646EB872BFC2D /* UIApplication+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+PXQuisite.m"; path = "Pod/Classes/UIApplication+PXQuisite.m"; sourceTree = "<group>"; };
+		C784ED913C3E759A7776F05D /* NSPropertyDescription+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPropertyDescription+PXQuisite.m"; path = "Pod/Classes/NSPropertyDescription+PXQuisite.m"; sourceTree = "<group>"; };
+		C843A9CFFA3E2D743677D9BF /* UIImage+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+PXQuisite.h"; path = "Pod/Classes/UIImage+PXQuisite.h"; sourceTree = "<group>"; };
+		C876AB64E59CE738716A9001 /* libPods-PXQSpinner-LINQ4Obj-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQSpinner-LINQ4Obj-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C09E200586AC1D0070B397 /* NSManagedObject+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+PXQuisite.m"; path = "Pod/Classes/NSManagedObject+PXQuisite.m"; sourceTree = "<group>"; };
+		C961275B93412AF7C49810CB /* NSManagedObjectContext+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+PXQuisite.h"; path = "Pod/Classes/NSManagedObjectContext+PXQuisite.h"; sourceTree = "<group>"; };
+		C9824DA66C7A48993C865C18 /* UINavigationController+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PXQuisite.m"; path = "Pod/Classes/UINavigationController+PXQuisite.m"; sourceTree = "<group>"; };
+		CB2B6AB09868BE91B5C4EC63 /* NSMutableArray+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+PXQuisite.h"; path = "Pod/Classes/NSMutableArray+PXQuisite.h"; sourceTree = "<group>"; };
+		CD647C270A3B1939010FFDCF /* NSArray+LINQ_Generation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Generation.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Generation.h"; sourceTree = "<group>"; };
+		CDD7FDCD273993C1871D059B /* NSArray+LINQ_Sorting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Sorting.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Sorting.m"; sourceTree = "<group>"; };
+		CFC1763AEE68BD038CB5129C /* NSPropertyDescription+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPropertyDescription+PXQuisite.h"; path = "Pod/Classes/NSPropertyDescription+PXQuisite.h"; sourceTree = "<group>"; };
+		D409DD4AA33A807B994FE452 /* PXQSpinner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQSpinner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D566FEC9490C38ED1730A95E /* PXQuisiteExtensions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteExtensions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6127287A0BF7A24362BFADC /* Pods-PXQSpinner-PXQSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQSpinner-PXQSpinner.xcconfig"; sourceTree = "<group>"; };
+		D8C217DE2AA6DD088554D772 /* Pods-PXQSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQSpinner-dummy.m"; sourceTree = "<group>"; };
+		DFFCD155E927FB9901FD0A79 /* Pods-Tests-PXQSpinner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQSpinner-Private.xcconfig"; path = "../Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-Private.xcconfig"; sourceTree = "<group>"; };
+		E0E71207E3F5B8294010FDF8 /* Pods-Tests-PXQuisiteExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteExtensions.xcconfig"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions.xcconfig"; sourceTree = "<group>"; };
+		E2CED17C14E5B66E862D2F46 /* NSDictionary+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+PXQuisite.m"; path = "Pod/Classes/NSDictionary+PXQuisite.m"; sourceTree = "<group>"; };
+		E539B87AC9EBD29147D7B307 /* NSException+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+PXQuisite.m"; path = "Pod/Classes/NSException+PXQuisite.m"; sourceTree = "<group>"; };
+		EACE3F9511CE480FDDD33BCF /* PXQSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXQSpinner.h; sourceTree = "<group>"; };
+		ED7C79427543884BD6D1F61A /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		EDAA0736034A9624E1018AFE /* NSManagedObjectModel+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+PXQuisite.h"; path = "Pod/Classes/NSManagedObjectModel+PXQuisite.h"; sourceTree = "<group>"; };
+		EF8232F4C6393C16652C3B8D /* NSEntityDescription+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+PXQuisite.h"; path = "Pod/Classes/NSEntityDescription+PXQuisite.h"; sourceTree = "<group>"; };
+		F2506BB132D546BF58527FDE /* NSError+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+PXQuisite.h"; path = "Pod/Classes/NSError+PXQuisite.h"; sourceTree = "<group>"; };
+		F4C4F95DA501FCB621E42C30 /* UIDevice+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+PXQuisite.m"; path = "Pod/Classes/UIDevice+PXQuisite.m"; sourceTree = "<group>"; };
+		F74677F974AF08367DCB2EA4 /* NSArray+LINQ_Aggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Aggregation.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Aggregation.h"; sourceTree = "<group>"; };
+		F7EC8884684D04A882A9288F /* PXQSpinner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQSpinner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F251F97247879F30BED629 /* NSBundle+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+PXQuisite.h"; path = "Pod/Classes/NSBundle+PXQuisite.h"; sourceTree = "<group>"; };
+		F92D1091518038AAAC1F99A1 /* NSArray+LINQ_Generation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LINQ_Generation.m"; path = "Source/NSArray+LINQ/NSArray+LINQ_Generation.m"; sourceTree = "<group>"; };
+		FB3CDD3C27E961F327277487 /* NSArray+LINQ_Filtering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LINQ_Filtering.h"; path = "Source/NSArray+LINQ/NSArray+LINQ_Filtering.h"; sourceTree = "<group>"; };
+		FC7580B78F7358535A12F105 /* UIImage+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+PXQuisite.m"; path = "Pod/Classes/UIImage+PXQuisite.m"; sourceTree = "<group>"; };
+		FE115EE563A82065E5784D2D /* PXQuisiteExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXQuisiteExtensions.h; path = Pod/Classes/PXQuisiteExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B8EED7F8D8A5F9B1EC196DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E6296DFD55BDE208968F152 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43BDEDC2DCC5FAC4AED21867 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F2D407D01FDB95F8A9BD6C /* CoreGraphics.framework in Frameworks */,
-				E71E71CD11C783911DED5D23 /* Foundation.framework in Frameworks */,
-				A5D6FA3C0C1957454F1BF6DD /* MapKit.framework in Frameworks */,
-				153E3D8965DFAA1D13FCE91B /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		864CAB7A2E60685A7016DAFE /* Frameworks */ = {
+		1DB34F4C20F08BB8CC802545 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF99F4C74FF2BB61181F883D /* Frameworks */ = {
+		230C465975E34548F135FCDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3962375FAE810C0271B2DB62 /* CoreGraphics.framework in Frameworks */,
-				FD9EEAC2C4485163BDFFC97F /* Foundation.framework in Frameworks */,
-				37214A7C82DA0C1AD4E39C4E /* MapKit.framework in Frameworks */,
-				5E28CFEE2F1F107F50E071F8 /* UIKit.framework in Frameworks */,
+				5565A3F5CE2018910BD94D83 /* CoreGraphics.framework in Frameworks */,
+				727AA6621435AD6D243FA1E2 /* Foundation.framework in Frameworks */,
+				F86F4C558EF425A7EBDE2F49 /* QuartzCore.framework in Frameworks */,
+				A261DF3D99E1C399696DCB79 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAEFE24CEEA495051F8F5E22 /* Frameworks */ = {
+		2FE4A3944C23913FF7391266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18149E9329F01AC9E521DAD /* CoreData.framework in Frameworks */,
+				E7E4E835E4306142AEA073E3 /* CoreGraphics.framework in Frameworks */,
+				5A1286A317F15D4A9E43716A /* Foundation.framework in Frameworks */,
+				A161F9E3AD57D5B815AED652 /* QuartzCore.framework in Frameworks */,
+				D6B9062A577744A78AA799CD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389B2D4C96A21A6EC3AC6821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C83312AF1587B61B7027AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F8FE3674750A5207D5EE84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E661B85C9E7F4E5B88D63ED6 /* Frameworks */ = {
+		5B3E2A02907FA8C4E8AA3A61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8450FD629CCD96D633CFDF7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1E2D119D473D2DB7B3ABD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC093199F68B0B4416A07EC4 /* CoreGraphics.framework in Frameworks */,
+				78660C240E135D87C7B949C6 /* Foundation.framework in Frameworks */,
+				CE257FABC9A3CC461F6F603E /* QuartzCore.framework in Frameworks */,
+				F54CC0005D7381FD848803AD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D3E347845D9262CB5A0816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D2BED6A370C754211061D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBE1B7A6C2C18925327639A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B37C6D7F67571CB7B0FE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E45663248B80E4F2054BB3 /* CoreData.framework in Frameworks */,
+				A9A5C3DF48BE7193F63A2A41 /* CoreGraphics.framework in Frameworks */,
+				4DC16DF39F9A1B5D97AB36A6 /* Foundation.framework in Frameworks */,
+				7DB9C1DAA024C435EADD689D /* QuartzCore.framework in Frameworks */,
+				EF79E417A5555A4CCE6330D5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA68A7801EC76144B698CDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368573499ABB0C74D3CFBF4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBE398DD32D0D7E95E90EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C62CECC4A4315E170EB899B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		426F2F466370DB7BA32532AA /* Products */ = {
+		0650E246D9F2AA93E00B0919 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C2F784030B1A7D48ED078797 /* PXQSpinner.bundle */,
-				100AA7DAB9F867DE1C5B326D /* PXQSpinner.bundle */,
-				2A86778D230A35CA20607F8D /* libPods-PXQSpinner.a */,
-				22628BC2006A7E4ECC65D4FC /* libPods-PXQSpinner-PXQSpinner.a */,
-				4C57443E06620ACF22F4B69A /* libPods-Tests.a */,
-				913E834996CA07779C6A888F /* libPods-Tests-PXQSpinner.a */,
+				EACE3F9511CE480FDDD33BCF /* PXQSpinner.h */,
+				700A572FA27D379AF18B44E8 /* PXQSpinner.m */,
 			);
-			name = Products;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		5A6709D2D9A4830AED2D8FA9 /* Support Files */ = {
+		1730C376EA792D296F8450BB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DBD60BD529571AB4A88D6B9F /* Pods-PXQSpinner-PXQSpinner.xcconfig */,
-				29850DEBBA12AAEF0032429A /* Pods-PXQSpinner-PXQSpinner-Private.xcconfig */,
-				42FF5BC624DA78AE67666843 /* Pods-PXQSpinner-PXQSpinner-dummy.m */,
-				89381DBC96124A8E91EC3368 /* Pods-PXQSpinner-PXQSpinner-prefix.pch */,
-				49ECA6A3A9AC84D7FDFC5DB0 /* Pods-Tests-PXQSpinner.xcconfig */,
-				E594E1BDE9FE552BEB0D3C07 /* Pods-Tests-PXQSpinner-Private.xcconfig */,
-				435AA4EE4ACC42C881C8486A /* Pods-Tests-PXQSpinner-dummy.m */,
-				8E7E466D73084D7B348A7149 /* Pods-Tests-PXQSpinner-prefix.pch */,
+				92259C44379052B9AF540934 /* Pods-PXQSpinner */,
+				29DEF67C05BF92F52AB6AE22 /* Pods-Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-PXQSpinner-PXQSpinner";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		738862438C7E35C83F9D4D1D = {
+		1F3A2C18A85FAB7CF16E96B5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA27D429943B5B18F8CB2EAD /* Podfile */,
-				8F9A2F8999CE6580AF18D21F /* Development Pods */,
-				DF14D8E3AF0309D79B2AE8FF /* Frameworks */,
-				426F2F466370DB7BA32532AA /* Products */,
-				A5140BD9BF891A454C0A27FA /* Targets Support Files */,
+				20D7E3DA447726B245FAD262 /* LINQ4Obj-C */,
+				E41D826A7C621D55D9DD8966 /* PXQuisiteExtensions */,
 			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		79FDDAF1287A8B0ADF63B29E /* Pod */ = {
+		1F8D9D909E4B6EFED5243780 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				93A46DD9A8479A1F44D502D9 /* Classes */,
+				B0F4033A5F744F6154CCFD57 /* CoreData.framework */,
+				0F3BB8C3F74CB8C7200CA63C /* CoreGraphics.framework */,
+				96A2C58D524B4B820638A78A /* Foundation.framework */,
+				6911699A728B57E68D88FB84 /* QuartzCore.framework */,
+				3F82813E5C59E22D1104D508 /* UIKit.framework */,
 			);
-			path = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		8B24D5958FE3FBF3CB382C1B /* PXQSpinner */ = {
+		20D7E3DA447726B245FAD262 /* LINQ4Obj-C */ = {
 			isa = PBXGroup;
 			children = (
-				79FDDAF1287A8B0ADF63B29E /* Pod */,
-				5A6709D2D9A4830AED2D8FA9 /* Support Files */,
+				6F34D718E9BAE77D8A77D7EE /* LINQ.h */,
+				1C09F187E471B7CC6FF687E5 /* MKMacros.h */,
+				AFC05A62580DE8A129FF7376 /* NSArray+LINQ.h */,
+				F74677F974AF08367DCB2EA4 /* NSArray+LINQ_Aggregation.h */,
+				29A158A653986D8002CDA16D /* NSArray+LINQ_Aggregation.m */,
+				3E37D6D220C1AFF85947001C /* NSArray+LINQ_Converting.h */,
+				4A20B506A3BE8F2EF2ABEEE8 /* NSArray+LINQ_Converting.m */,
+				FB3CDD3C27E961F327277487 /* NSArray+LINQ_Filtering.h */,
+				B755BBE548F346275D5B6654 /* NSArray+LINQ_Filtering.m */,
+				CD647C270A3B1939010FFDCF /* NSArray+LINQ_Generation.h */,
+				F92D1091518038AAAC1F99A1 /* NSArray+LINQ_Generation.m */,
+				4C1A49DBF57C00B3CC783B68 /* NSArray+LINQ_Grouping.h */,
+				5E6CF5C9DD7B989E2C44297C /* NSArray+LINQ_Grouping.m */,
+				67F45C8730EAF443B4ED4EAF /* NSArray+LINQ_Partitioning.h */,
+				05F07EAD307B25BF63DCEE9C /* NSArray+LINQ_Partitioning.m */,
+				024A89E88ACC5A40FD5A5B15 /* NSArray+LINQ_Projection.h */,
+				7B063366451EBBAAA038E58D /* NSArray+LINQ_Projection.m */,
+				109142B5FADF21D294C667E7 /* NSArray+LINQ_Quantifier.h */,
+				81979210C6FE041800446868 /* NSArray+LINQ_Quantifier.m */,
+				301D8E903214C0C03C589D15 /* NSArray+LINQ_Sets.h */,
+				85FEF264C36D96DE629EA78A /* NSArray+LINQ_Sets.m */,
+				7CD867170EA186860204134F /* NSArray+LINQ_Sorting.h */,
+				CDD7FDCD273993C1871D059B /* NSArray+LINQ_Sorting.m */,
+				8C3F011A0598FFB24D347FDB /* NSDictionary+LINQ.h */,
+				B4FAB0DFDEDB781B0B0BC955 /* NSDictionary+LINQ_Aggregation.h */,
+				44217495FF47366C4BC80122 /* NSDictionary+LINQ_Aggregation.m */,
+				296FB5D4D494233F3A75EF87 /* NSDictionary+LINQ_Converting.h */,
+				8F3A6B1A6A675CE2F2736C71 /* NSDictionary+LINQ_Converting.m */,
+				22AD5BC680C929B5E52410CE /* NSDictionary+LINQ_Filtering.h */,
+				2009B282547F5FCA0F2416EF /* NSDictionary+LINQ_Filtering.m */,
+				9ADA76C23EF227E260A51D36 /* NSDictionary+LINQ_Generation.h */,
+				0AFFD934179FDB6C5826041A /* NSDictionary+LINQ_Generation.m */,
+				03EA622C11F06CD77267DBE6 /* NSDictionary+LINQ_Partitioning.h */,
+				6BD40F242FB87000A2BBC2F1 /* NSDictionary+LINQ_Partitioning.m */,
+				135FA39606FC521EA3BB463B /* NSDictionary+LINQ_Quantifier.h */,
+				A18C5596D60E33EBA0803FA1 /* NSDictionary+LINQ_Quantifier.m */,
+				60E23DFA832C631DCED14A58 /* NSDictionary+LINQ_Sets.h */,
+				8E7C4C733FB1413089D297FE /* NSDictionary+LINQ_Sets.m */,
+				6C6287B14E7B342E1D61BE63 /* Support Files */,
 			);
-			name = PXQSpinner;
-			path = ../..;
+			path = "LINQ4Obj-C";
 			sourceTree = "<group>";
 		};
-		8F9A2F8999CE6580AF18D21F /* Development Pods */ = {
+		29DEF67C05BF92F52AB6AE22 /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8B24D5958FE3FBF3CB382C1B /* PXQSpinner */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		903CE76752E85B601983AD01 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4B9CAC1EFAE362CAF03E8960 /* Pods-Tests-acknowledgements.markdown */,
-				CB33B0E3BB84D4C0956844C7 /* Pods-Tests-acknowledgements.plist */,
-				8D2E7E76208399DEC15D67AA /* Pods-Tests-dummy.m */,
-				0CC0F4D69FC6B543A3990C0E /* Pods-Tests-environment.h */,
-				FF85999F611C5DEA018472EA /* Pods-Tests-resources.sh */,
-				582C474FA53B61268B250958 /* Pods-Tests.debug.xcconfig */,
-				C7128D0535380973CC435A97 /* Pods-Tests.release.xcconfig */,
+				66A3643ACB842F06DF188F08 /* Pods-Tests-acknowledgements.markdown */,
+				ACA8BCB2CD5CFE5A6C93E0C1 /* Pods-Tests-acknowledgements.plist */,
+				A8CA8F74E8049925D9BB27B9 /* Pods-Tests-dummy.m */,
+				AEB554E04FC31A4C743E26FE /* Pods-Tests-environment.h */,
+				ED7C79427543884BD6D1F61A /* Pods-Tests-resources.sh */,
+				7D5ECF585FFC05B39097F506 /* Pods-Tests.debug.xcconfig */,
+				2AB4D6028E14ADB6F1D5BAF5 /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		93A46DD9A8479A1F44D502D9 /* Classes */ = {
+		2CED5BD52AC232954A9DF797 /* PXQSpinner */ = {
 			isa = PBXGroup;
 			children = (
-				2ED29DF35BA2D3442C3320F0 /* PXQSpinner.h */,
-				388891275ABC41D882EF778E /* PXQSpinner.m */,
+				DA4576862E2A30C2C972981A /* Pod */,
+				4E4D907C65D1670F3E81B6C3 /* Support Files */,
 			);
-			path = Classes;
+			name = PXQSpinner;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		96B09541DAD0180F2723BF50 /* iOS */ = {
+		4E4D907C65D1670F3E81B6C3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DB2A2F98EB5050A2C8C9D43D /* CoreGraphics.framework */,
-				0CF2CDF3719B62FE0F3150F4 /* Foundation.framework */,
-				E878A2D72E1D978375A91637 /* MapKit.framework */,
-				3C0DD28C41FC6513A3E75EA6 /* UIKit.framework */,
+				D6127287A0BF7A24362BFADC /* Pods-PXQSpinner-PXQSpinner.xcconfig */,
+				BC94EA9A81A4484EB1964B80 /* Pods-PXQSpinner-PXQSpinner-Private.xcconfig */,
+				2C4E4700893D3F591E165AE1 /* Pods-PXQSpinner-PXQSpinner-dummy.m */,
+				3324F457F97753AF8FB3B57F /* Pods-PXQSpinner-PXQSpinner-prefix.pch */,
+				391B5A52E32A4F894B8BDE0D /* Pods-Tests-PXQSpinner.xcconfig */,
+				DFFCD155E927FB9901FD0A79 /* Pods-Tests-PXQSpinner-Private.xcconfig */,
+				0BFA689FE7183DA307972ED9 /* Pods-Tests-PXQSpinner-dummy.m */,
+				071775BC69FA6BF6D2FDA490 /* Pods-Tests-PXQSpinner-prefix.pch */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-PXQSpinner-PXQSpinner";
 			sourceTree = "<group>";
 		};
-		A5140BD9BF891A454C0A27FA /* Targets Support Files */ = {
+		5CC9B55F366F6E774B4E091D = {
 			isa = PBXGroup;
 			children = (
-				AE24AE63DBD6064FF03B8E28 /* Pods-PXQSpinner */,
-				903CE76752E85B601983AD01 /* Pods-Tests */,
+				7965ECA1FADE6AA27C32E373 /* Podfile */,
+				6A2B5490E0014CA3D8FCC021 /* Development Pods */,
+				AD6EA819FBB5068D1FB16BB9 /* Frameworks */,
+				1F3A2C18A85FAB7CF16E96B5 /* Pods */,
+				A79E410E5E794D0DA515A73E /* Products */,
+				1730C376EA792D296F8450BB /* Targets Support Files */,
 			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AE24AE63DBD6064FF03B8E28 /* Pods-PXQSpinner */ = {
+		6A2B5490E0014CA3D8FCC021 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AE428958D6D4550D7B01B3A7 /* Pods-PXQSpinner-acknowledgements.markdown */,
-				AD01171CF0FE9962BA815E99 /* Pods-PXQSpinner-acknowledgements.plist */,
-				F9F6C3938DC389657B7FFB49 /* Pods-PXQSpinner-dummy.m */,
-				4E068F3074E119680FFAA31F /* Pods-PXQSpinner-environment.h */,
-				28B13B230F1F213322B66A1F /* Pods-PXQSpinner-resources.sh */,
-				64A653630E129EAAFC5EFD40 /* Pods-PXQSpinner.debug.xcconfig */,
-				81E4A4F4B9D5C13E0E886DB6 /* Pods-PXQSpinner.release.xcconfig */,
+				2CED5BD52AC232954A9DF797 /* PXQSpinner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6C6287B14E7B342E1D61BE63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A881F618187AD6123CD3B83F /* Pods-PXQSpinner-LINQ4Obj-C.xcconfig */,
+				52F8E91D4B4B1A65DB965762 /* Pods-PXQSpinner-LINQ4Obj-C-Private.xcconfig */,
+				5BDDBC3B5E51E95166487B49 /* Pods-PXQSpinner-LINQ4Obj-C-dummy.m */,
+				88AC47640B43EA458D7CAE0E /* Pods-PXQSpinner-LINQ4Obj-C-prefix.pch */,
+				7D104012230DEA8A83C4BCD6 /* Pods-Tests-LINQ4Obj-C.xcconfig */,
+				1D7ECC7C832B0A83EF51A577 /* Pods-Tests-LINQ4Obj-C-Private.xcconfig */,
+				139D8A601873B04FF6087245 /* Pods-Tests-LINQ4Obj-C-dummy.m */,
+				B0D9B4DDD9324C598FF5B7A2 /* Pods-Tests-LINQ4Obj-C-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PXQSpinner-LINQ4Obj-C";
+			sourceTree = "<group>";
+		};
+		76539250A658008254275CCB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E554D6C40B6AC90AE81771D /* Pods-PXQSpinner-PXQuisiteExtensions.xcconfig */,
+				70391E527933654E321AA464 /* Pods-PXQSpinner-PXQuisiteExtensions-Private.xcconfig */,
+				B4947890EF98F57212EA9EEF /* Pods-PXQSpinner-PXQuisiteExtensions-dummy.m */,
+				76BDB5AFD53748922F69274C /* Pods-PXQSpinner-PXQuisiteExtensions-prefix.pch */,
+				E0E71207E3F5B8294010FDF8 /* Pods-Tests-PXQuisiteExtensions.xcconfig */,
+				64EF56C3AA091A95C0D990E8 /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */,
+				99506414DA4BCA606D9F0299 /* Pods-Tests-PXQuisiteExtensions-dummy.m */,
+				B403451E61C67D19A0FB5C69 /* Pods-Tests-PXQuisiteExtensions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PXQSpinner-PXQuisiteExtensions";
+			sourceTree = "<group>";
+		};
+		92259C44379052B9AF540934 /* Pods-PXQSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				1CD4F0D2288EA91B8E998ABA /* Pods-PXQSpinner-acknowledgements.markdown */,
+				4AD8D1859113A550EA556510 /* Pods-PXQSpinner-acknowledgements.plist */,
+				D8C217DE2AA6DD088554D772 /* Pods-PXQSpinner-dummy.m */,
+				4A910EB5A83AC684F102CACD /* Pods-PXQSpinner-environment.h */,
+				05B94181ABD4FDC84D15CDB2 /* Pods-PXQSpinner-resources.sh */,
+				1D529BBAA19985F7738A9463 /* Pods-PXQSpinner.debug.xcconfig */,
+				A4B4A239C973E50252EF2D1D /* Pods-PXQSpinner.release.xcconfig */,
 			);
 			name = "Pods-PXQSpinner";
 			path = "Target Support Files/Pods-PXQSpinner";
 			sourceTree = "<group>";
 		};
-		DF14D8E3AF0309D79B2AE8FF /* Frameworks */ = {
+		A79E410E5E794D0DA515A73E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96B09541DAD0180F2723BF50 /* iOS */,
+				F7EC8884684D04A882A9288F /* PXQSpinner.bundle */,
+				D409DD4AA33A807B994FE452 /* PXQSpinner.bundle */,
+				D566FEC9490C38ED1730A95E /* PXQuisiteExtensions.bundle */,
+				13A7F9EFD4B91D87D7D1F6F3 /* PXQuisiteExtensions.bundle */,
+				13D98FC044490E72087EF526 /* libPods-PXQSpinner.a */,
+				C876AB64E59CE738716A9001 /* libPods-PXQSpinner-LINQ4Obj-C.a */,
+				712FA01955CD445277F0F7BB /* libPods-PXQSpinner-PXQSpinner.a */,
+				C4F99DDE692F9109D92C5BCB /* libPods-PXQSpinner-PXQuisiteExtensions.a */,
+				56D5DBFE273ADAC3C265D6DF /* libPods-Tests.a */,
+				07884507E75480546DF89F8B /* libPods-Tests-LINQ4Obj-C.a */,
+				A29E819F03F73B033F6B6AED /* libPods-Tests-PXQSpinner.a */,
+				37ACA7D7750956C4F527B291 /* libPods-Tests-PXQuisiteExtensions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD6EA819FBB5068D1FB16BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F8D9D909E4B6EFED5243780 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA4576862E2A30C2C972981A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0650E246D9F2AA93E00B0919 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E41D826A7C621D55D9DD8966 /* PXQuisiteExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				75A8FEC799B81613B6141DDA /* NSArray+PXQuisite.h */,
+				75AC009AB13B8E680600A9A9 /* NSArray+PXQuisite.m */,
+				BB8C02ADA04CCD5B8D021066 /* NSAttributeDescription+PXQuisite.h */,
+				35107E073217499F5EB04DF9 /* NSAttributeDescription+PXQuisite.m */,
+				F8F251F97247879F30BED629 /* NSBundle+PXQuisite.h */,
+				A15D91479E5AC412D20CA452 /* NSBundle+PXQuisite.m */,
+				6FF042C0ED2A1BED2213100C /* NSDate+PXQuisite.h */,
+				478F272F35F6951EC08069E1 /* NSDate+PXQuisite.m */,
+				BCB0362C82E0ABE61052B5DF /* NSDateFormatter+PXQuisite.h */,
+				80B2C8D85F252E55091C8D9D /* NSDateFormatter+PXQuisite.m */,
+				61BB1B7211ACB17A85FE1C28 /* NSDictionary+PXQuisite.h */,
+				E2CED17C14E5B66E862D2F46 /* NSDictionary+PXQuisite.m */,
+				EF8232F4C6393C16652C3B8D /* NSEntityDescription+PXQuisite.h */,
+				38BAF36D0FA37F6D46FF5A14 /* NSEntityDescription+PXQuisite.m */,
+				F2506BB132D546BF58527FDE /* NSError+PXQuisite.h */,
+				C0801885DD6F123BDB6E51CB /* NSError+PXQuisite.m */,
+				87B03F4F496ECE4BF19E6784 /* NSException+PXQuisite.h */,
+				E539B87AC9EBD29147D7B307 /* NSException+PXQuisite.m */,
+				4E56423869847211E34FC4BE /* NSManagedObject+PXQuisite.h */,
+				C8C09E200586AC1D0070B397 /* NSManagedObject+PXQuisite.m */,
+				C961275B93412AF7C49810CB /* NSManagedObjectContext+PXQuisite.h */,
+				3CE1CA78F77FB1F96E4ECDA6 /* NSManagedObjectContext+PXQuisite.m */,
+				EDAA0736034A9624E1018AFE /* NSManagedObjectModel+PXQuisite.h */,
+				948CD72EA087593D97A72DAA /* NSManagedObjectModel+PXQuisite.m */,
+				CB2B6AB09868BE91B5C4EC63 /* NSMutableArray+PXQuisite.h */,
+				25E566BDBBC16AB69FAD28CF /* NSMutableArray+PXQuisite.m */,
+				5E41D6F52F3731CE865FCB2D /* NSMutableDictionary+PXQuisite.h */,
+				A7713E1480D9A16599C79BF1 /* NSMutableDictionary+PXQuisite.m */,
+				32C334F5701D4D18383B7878 /* NSObject+PXQuisite.h */,
+				9D00EF0F6A719A0FD0F8F7E5 /* NSObject+PXQuisite.m */,
+				8DFC63EA8FA71B7AB61515EE /* NSPersistentStore+PXQuisite.h */,
+				500DDDD3FBF10C3CF891EFF5 /* NSPersistentStore+PXQuisite.m */,
+				0693435E94F44B686991BA9C /* NSPersistentStoreCoordinator+PXQuisite.h */,
+				9B2EB37926851892CD898D58 /* NSPersistentStoreCoordinator+PXQuisite.m */,
+				CFC1763AEE68BD038CB5129C /* NSPropertyDescription+PXQuisite.h */,
+				C784ED913C3E759A7776F05D /* NSPropertyDescription+PXQuisite.m */,
+				22E578B994958F8DF16751DB /* NSRelationshipDescription+PXQuisite.h */,
+				48EB99C251315D12BBFD28F7 /* NSRelationshipDescription+PXQuisite.m */,
+				A8E1E44D814C1144662DD60D /* NSString+PXQuisite.h */,
+				902F5F4C0E33936B4979785A /* NSString+PXQuisite.m */,
+				43EE9365668702D7F97F201B /* NSURL+PXQuisite.h */,
+				7E9CB4F094DD5E0D865B155D /* NSURL+PXQuisite.m */,
+				FE115EE563A82065E5784D2D /* PXQuisiteExtensions.h */,
+				0F6A3B7400EC93CF29C14981 /* UIApplication+PXQuisite.h */,
+				C710D6ABF70646EB872BFC2D /* UIApplication+PXQuisite.m */,
+				701ED80B5B99579C62F26397 /* UIDevice+PXQuisite.h */,
+				F4C4F95DA501FCB621E42C30 /* UIDevice+PXQuisite.m */,
+				C843A9CFFA3E2D743677D9BF /* UIImage+PXQuisite.h */,
+				FC7580B78F7358535A12F105 /* UIImage+PXQuisite.m */,
+				136DF73B8D5BC218E80BC871 /* UINavigationController+PXQuisite.h */,
+				C9824DA66C7A48993C865C18 /* UINavigationController+PXQuisite.m */,
+				21440C6FA8019EA096ED0ECA /* UIScreen+PXQuisite.h */,
+				B8E8F84059DDA016E96A6717 /* UIScreen+PXQuisite.m */,
+				71EED11F2C7A6435BC57849F /* UIScreenMode+PXQuisite.h */,
+				61BB1501AECCD765114236F0 /* UIScreenMode+PXQuisite.m */,
+				3D982BA68BAC7798C9DA1231 /* UIView+PXQuisite.h */,
+				062B1877F3A09A7224246AA0 /* UIView+PXQuisite.m */,
+				76539250A658008254275CCB /* Support Files */,
+			);
+			path = PXQuisiteExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C53C5D0F63B9582ABA66A1B8 /* Headers */ = {
+		19890CE8DB867838A3AE2C9C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55D775907965E18C3E5D00F /* PXQSpinner.h in Headers */,
+				5A2350B4035446AEA952FCBA /* PXQSpinner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D172A13FE1E768092DF8BF58 /* Headers */ = {
+		3437D4B6ED23FA77616BD334 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B0F2EDE2070B58ECD5A945 /* PXQSpinner.h in Headers */,
+				1F8E51B531624F0F74F3135D /* PXQSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C15868F155644F045D6F86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAE804E7EDB01239363B52B /* LINQ.h in Headers */,
+				CBFAB5519D44F0284DE3B945 /* MKMacros.h in Headers */,
+				BDBF5E4648B4918C98C2AD36 /* NSArray+LINQ.h in Headers */,
+				C2F5A512BAD0F41BA7BD4DE3 /* NSArray+LINQ_Aggregation.h in Headers */,
+				2722C006CD7B4C7672A1B32F /* NSArray+LINQ_Converting.h in Headers */,
+				EDD5D27BC606AB545626FCA0 /* NSArray+LINQ_Filtering.h in Headers */,
+				97D87763F15EC1E88CB1E499 /* NSArray+LINQ_Generation.h in Headers */,
+				FAF73B30E474003005DEC2CE /* NSArray+LINQ_Grouping.h in Headers */,
+				DB7B080221457E93AE714C6E /* NSArray+LINQ_Partitioning.h in Headers */,
+				AAB57966D224CDE795E9BFF8 /* NSArray+LINQ_Projection.h in Headers */,
+				9B5F4CCF6AF9BE77948EFE85 /* NSArray+LINQ_Quantifier.h in Headers */,
+				67536188B1705651433B3C8A /* NSArray+LINQ_Sets.h in Headers */,
+				1DD0E131165BC25B9953837B /* NSArray+LINQ_Sorting.h in Headers */,
+				0B7537A9169160E68A491A68 /* NSDictionary+LINQ.h in Headers */,
+				A3F8A4FCA9AA6378A972935E /* NSDictionary+LINQ_Aggregation.h in Headers */,
+				38BC513D6F6D3E367E96C65B /* NSDictionary+LINQ_Converting.h in Headers */,
+				91D21977CB4DC982B244C5BD /* NSDictionary+LINQ_Filtering.h in Headers */,
+				4FC5D802556DD50706D193B2 /* NSDictionary+LINQ_Generation.h in Headers */,
+				1A66B914153E7C1A7AC93E10 /* NSDictionary+LINQ_Partitioning.h in Headers */,
+				48D3A6E30D4D5421726CA862 /* NSDictionary+LINQ_Quantifier.h in Headers */,
+				6023F3D63166B6418287D7F6 /* NSDictionary+LINQ_Sets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717944F469C1C7379B276018 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96594FB65967E0AA6D4E42CB /* LINQ.h in Headers */,
+				68AC296F2212C621CAB5AA6A /* MKMacros.h in Headers */,
+				CE363819983BF253370F9A35 /* NSArray+LINQ.h in Headers */,
+				F320FB00B083D777F1CDE9F7 /* NSArray+LINQ_Aggregation.h in Headers */,
+				D0E81797013CC2AC0CF5FFC1 /* NSArray+LINQ_Converting.h in Headers */,
+				DF4AD9A9C664300619479FFA /* NSArray+LINQ_Filtering.h in Headers */,
+				B81AE0168BA60B7A04096ED4 /* NSArray+LINQ_Generation.h in Headers */,
+				D81AB8D772B3AFADA7A299FE /* NSArray+LINQ_Grouping.h in Headers */,
+				0714DB653E5DD7CE7AC20E90 /* NSArray+LINQ_Partitioning.h in Headers */,
+				C2658B5B69E878E957F9FDE1 /* NSArray+LINQ_Projection.h in Headers */,
+				8FF64626BDC882AC04ABA32D /* NSArray+LINQ_Quantifier.h in Headers */,
+				62942FAFBEF0EC56D1D2AE12 /* NSArray+LINQ_Sets.h in Headers */,
+				31BB6C1D449A3DFF9444F0C6 /* NSArray+LINQ_Sorting.h in Headers */,
+				CA223FD5C26500A048A038F4 /* NSDictionary+LINQ.h in Headers */,
+				FD2E518FD43A04C610860601 /* NSDictionary+LINQ_Aggregation.h in Headers */,
+				2C322D4B1192F26738A22F17 /* NSDictionary+LINQ_Converting.h in Headers */,
+				AD879C9691879A35B9EF8497 /* NSDictionary+LINQ_Filtering.h in Headers */,
+				735C02C34D3B4C76552270F2 /* NSDictionary+LINQ_Generation.h in Headers */,
+				6BA848C6CC61554075CCF4EB /* NSDictionary+LINQ_Partitioning.h in Headers */,
+				E2D2B4805BA13AB6304A5466 /* NSDictionary+LINQ_Quantifier.h in Headers */,
+				0B03FEDDAB68312F1C0E6EEA /* NSDictionary+LINQ_Sets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8CDEA7448CB2199AC0E0D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B55735F741E1351F0B78994 /* NSArray+PXQuisite.h in Headers */,
+				674A0F78B6191410A2ED4D9F /* NSAttributeDescription+PXQuisite.h in Headers */,
+				2BB772009D82EE8D43B21CFC /* NSBundle+PXQuisite.h in Headers */,
+				FE5F28928EB66E8BA7F01D0E /* NSDate+PXQuisite.h in Headers */,
+				9A8219422061FF07B79B9EB3 /* NSDateFormatter+PXQuisite.h in Headers */,
+				3D5E869FC1DE0C55F2EF322D /* NSDictionary+PXQuisite.h in Headers */,
+				CE3D7265184E4B00FBC41ADC /* NSEntityDescription+PXQuisite.h in Headers */,
+				DDC73EE4DD5097EC1E83C3F9 /* NSError+PXQuisite.h in Headers */,
+				3D4BD4F5ADEFCDD64EDA62D1 /* NSException+PXQuisite.h in Headers */,
+				AA5598CE1C150B4D98782837 /* NSManagedObject+PXQuisite.h in Headers */,
+				CAE5C4B68B10FFECBBB00DCD /* NSManagedObjectContext+PXQuisite.h in Headers */,
+				FACDACA61F262A1456BBA72E /* NSManagedObjectModel+PXQuisite.h in Headers */,
+				98AA8C8AE08DD4F24A0C1D78 /* NSMutableArray+PXQuisite.h in Headers */,
+				BC22E13D130D2BC5F16E3F58 /* NSMutableDictionary+PXQuisite.h in Headers */,
+				7D9944F863D8BA435EA84402 /* NSObject+PXQuisite.h in Headers */,
+				61DB23617BD5F415F6EDA122 /* NSPersistentStore+PXQuisite.h in Headers */,
+				3AFB63ECE3EA23B8F7375345 /* NSPersistentStoreCoordinator+PXQuisite.h in Headers */,
+				7C65FA287D1C30114A177194 /* NSPropertyDescription+PXQuisite.h in Headers */,
+				4F0950AB99247AAF7DA93E53 /* NSRelationshipDescription+PXQuisite.h in Headers */,
+				558DC18CF3639BFAA1544BAD /* NSString+PXQuisite.h in Headers */,
+				DCA75C67D43AFE673BD568D1 /* NSURL+PXQuisite.h in Headers */,
+				BAC413B6F57350B16BEC7EDE /* PXQuisiteExtensions.h in Headers */,
+				9975305965D4BD31446B611B /* UIApplication+PXQuisite.h in Headers */,
+				C84C264F1F46AE1F943F6E86 /* UIDevice+PXQuisite.h in Headers */,
+				59A31D6BCF702C01E945C5A8 /* UIImage+PXQuisite.h in Headers */,
+				C869B6A0C58406227FD9CC50 /* UINavigationController+PXQuisite.h in Headers */,
+				CA43A461997D0F3E8EB3483E /* UIScreen+PXQuisite.h in Headers */,
+				129FDBED841444D8CE6F2D6B /* UIScreenMode+PXQuisite.h in Headers */,
+				E7D0A3D532543A9BC9126020 /* UIView+PXQuisite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA89B5D95BD8A81C894FA50E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B216CC7F5FEC6175D2A67C /* NSArray+PXQuisite.h in Headers */,
+				AC97011A9E7A553A4ACA8D50 /* NSAttributeDescription+PXQuisite.h in Headers */,
+				DBF01B210154F31EA632443F /* NSBundle+PXQuisite.h in Headers */,
+				B90DC50371F1D0618720364B /* NSDate+PXQuisite.h in Headers */,
+				00F81662E5DBDF399DAC3BCF /* NSDateFormatter+PXQuisite.h in Headers */,
+				B771C94EDD2523EED727F685 /* NSDictionary+PXQuisite.h in Headers */,
+				56FFC9FB5581532D39E0E732 /* NSEntityDescription+PXQuisite.h in Headers */,
+				9E6A917FE33B2A1C9F518B85 /* NSError+PXQuisite.h in Headers */,
+				8D7909104899B8863C390350 /* NSException+PXQuisite.h in Headers */,
+				7A97582AAB5DE4CBC45C2EEE /* NSManagedObject+PXQuisite.h in Headers */,
+				E98610D2BFBA94E89F212A33 /* NSManagedObjectContext+PXQuisite.h in Headers */,
+				D870C40B437301B9A0ABE820 /* NSManagedObjectModel+PXQuisite.h in Headers */,
+				513D7513D0F8AE2222C885D6 /* NSMutableArray+PXQuisite.h in Headers */,
+				1925E36FF2F8DB9117B449A9 /* NSMutableDictionary+PXQuisite.h in Headers */,
+				F1930ED189EC27E8267B1FBC /* NSObject+PXQuisite.h in Headers */,
+				ADAD830A411B2C0F01898CE5 /* NSPersistentStore+PXQuisite.h in Headers */,
+				C24926EE9E1F888376526FBE /* NSPersistentStoreCoordinator+PXQuisite.h in Headers */,
+				3A7DEDDBA68A2A847528ED80 /* NSPropertyDescription+PXQuisite.h in Headers */,
+				23D5F601A225B8FF561E4EFE /* NSRelationshipDescription+PXQuisite.h in Headers */,
+				EC0862FA7C9F9BAAB6CA6246 /* NSString+PXQuisite.h in Headers */,
+				59187D32E8274CED8B9633F4 /* NSURL+PXQuisite.h in Headers */,
+				29321578AB1F038E22704A43 /* PXQuisiteExtensions.h in Headers */,
+				C92F37BA9318E4E0745CD84F /* UIApplication+PXQuisite.h in Headers */,
+				284F9642E9F6540CCCC1F22D /* UIDevice+PXQuisite.h in Headers */,
+				DA1CEDC9DDC38F5ED0B82878 /* UIImage+PXQuisite.h in Headers */,
+				144E07A9045BB7E49436BDEF /* UINavigationController+PXQuisite.h in Headers */,
+				096374E5E66D35681F25E117 /* UIScreen+PXQuisite.h in Headers */,
+				DFEB7214264534AB2B55A028 /* UIScreenMode+PXQuisite.h in Headers */,
+				CB3EEBE9C0E4C36692CCA932 /* UIView+PXQuisite.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		045615A37675B40E54E598F2 /* Pods-Tests-PXQSpinner-PXQSpinner */ = {
+		1124B3C9C31A0B21DBF7BBEC /* Pods-PXQSpinner-LINQ4Obj-C */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B167A4D9205ECB2EA17EF63A /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQSpinner-PXQSpinner" */;
+			buildConfigurationList = 21E53CE954E6CD4C06565CF6 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-LINQ4Obj-C" */;
 			buildPhases = (
-				BB438B164ADD6D2B77FA248E /* Sources */,
-				864CAB7A2E60685A7016DAFE /* Frameworks */,
-				6F237640425B1981D2126EA1 /* Resources */,
+				0B7FADEA66633CA888710733 /* Sources */,
+				97D3E347845D9262CB5A0816 /* Frameworks */,
+				717944F469C1C7379B276018 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PXQSpinner-LINQ4Obj-C";
+			productName = "Pods-PXQSpinner-LINQ4Obj-C";
+			productReference = C876AB64E59CE738716A9001 /* libPods-PXQSpinner-LINQ4Obj-C.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27912BAF9BDBE721C6FAB33D /* Pods-Tests-LINQ4Obj-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C962C91F6A40C840EB1EF9A /* Build configuration list for PBXNativeTarget "Pods-Tests-LINQ4Obj-C" */;
+			buildPhases = (
+				75E644A0A91A9631225269FF /* Sources */,
+				389B2D4C96A21A6EC3AC6821 /* Frameworks */,
+				43C15868F155644F045D6F86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-LINQ4Obj-C";
+			productName = "Pods-Tests-LINQ4Obj-C";
+			productReference = 07884507E75480546DF89F8B /* libPods-Tests-LINQ4Obj-C.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4030F45C34DB0E072726C9D7 /* Pods-PXQSpinner-PXQSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DABF27CB6C8B5351B619A12 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQSpinner" */;
+			buildPhases = (
+				85ADE472F001FDC75BAAD121 /* Sources */,
+				230C465975E34548F135FCDF /* Frameworks */,
+				3437D4B6ED23FA77616BD334 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5083483C041F62A8EA1065 /* PBXTargetDependency */,
+				ADC1C9CB7DD7E44EF956B54E /* PBXTargetDependency */,
+			);
+			name = "Pods-PXQSpinner-PXQSpinner";
+			productName = "Pods-PXQSpinner-PXQSpinner";
+			productReference = 712FA01955CD445277F0F7BB /* libPods-PXQSpinner-PXQSpinner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		47E92514EB84C2B1FD16D800 /* Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D425A13FAB4B2D82173C4002 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions" */;
+			buildPhases = (
+				B11F32B4FA152B5EF9FC62C8 /* Sources */,
+				5B3E2A02907FA8C4E8AA3A61 /* Frameworks */,
+				47F7E718CF29791E07A0E109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions";
+			productName = "Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions";
+			productReference = 13A7F9EFD4B91D87D7D1F6F3 /* PXQuisiteExtensions.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4996A750B402D94AFB859550 /* Pods-Tests-PXQuisiteExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB4B589F3EB18E889AB3B8B /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions" */;
+			buildPhases = (
+				ACA7FDC94FB00D02C0C0A69D /* Sources */,
+				2FE4A3944C23913FF7391266 /* Frameworks */,
+				CC8CDEA7448CB2199AC0E0D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E659E5C4DF3FB3EB95DA2821 /* PBXTargetDependency */,
+				EF98A8F7C2CFF9C99EBE7954 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-PXQuisiteExtensions";
+			productName = "Pods-Tests-PXQuisiteExtensions";
+			productReference = 37ACA7D7750956C4F527B291 /* libPods-Tests-PXQuisiteExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65E57C3FB3A3476C80F76D86 /* Pods-PXQSpinner-PXQuisiteExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CFF01E529C4DBCBFC290AF0 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQuisiteExtensions" */;
+			buildPhases = (
+				93FCBC9308EB953BD91EA1C6 /* Sources */,
+				E6B37C6D7F67571CB7B0FE03 /* Frameworks */,
+				FA89B5D95BD8A81C894FA50E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61CCFB17031600131623E321 /* PBXTargetDependency */,
+				02B46DE1186E111F630C3F29 /* PBXTargetDependency */,
+			);
+			name = "Pods-PXQSpinner-PXQuisiteExtensions";
+			productName = "Pods-PXQSpinner-PXQuisiteExtensions";
+			productReference = C4F99DDE692F9109D92C5BCB /* libPods-PXQSpinner-PXQuisiteExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7626D27A0B6D5C3BBCDE1750 /* Pods-PXQSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B611A90426C84C22C7FF42D3 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner" */;
+			buildPhases = (
+				72C739181B3129545696E1E8 /* Sources */,
+				FCBE398DD32D0D7E95E90EC8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3194E5CE8C3C3BD5921C826B /* PBXTargetDependency */,
+				F945D05D2AF2FF0FA9E81877 /* PBXTargetDependency */,
+				C94DE01FD2334442AA075A51 /* PBXTargetDependency */,
+			);
+			name = "Pods-PXQSpinner";
+			productName = "Pods-PXQSpinner";
+			productReference = 13D98FC044490E72087EF526 /* libPods-PXQSpinner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E42C5ACEDB4842127ECFC19 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C28037CFA87F99D90830B87 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				79D2BD787CE202F0D6A4833D /* Sources */,
+				EA68A7801EC76144B698CDB5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8046E0C716D4D2EAB04DAE /* PBXTargetDependency */,
+				9A5988A455E7BC52D06F2082 /* PBXTargetDependency */,
+				109AA57A47E50D54B1A4CC06 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 56D5DBFE273ADAC3C265D6DF /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB259C32B2405EE4BB274F01 /* Pods-Tests-PXQSpinner-PXQSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95FFEE54E2D3F24A78CB4B2 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQSpinner-PXQSpinner" */;
+			buildPhases = (
+				CB9912BACE2637C88E44618C /* Sources */,
+				BCBE1B7A6C2C18925327639A /* Frameworks */,
+				EC7AB985B35FD5F469A94D14 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -321,51 +1203,52 @@
 			);
 			name = "Pods-Tests-PXQSpinner-PXQSpinner";
 			productName = "Pods-Tests-PXQSpinner-PXQSpinner";
-			productReference = C2F784030B1A7D48ED078797 /* PXQSpinner.bundle */;
+			productReference = F7EC8884684D04A882A9288F /* PXQSpinner.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		39D3E663E7892E6D09110A5D /* Pods-Tests-PXQSpinner */ = {
+		CAA4C3C5CC9727848B6F8559 /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AE5EAAB87A738B3514C6BE7 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQSpinner" */;
+			buildConfigurationList = 6C120D08B393EF455DC252D5 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions" */;
 			buildPhases = (
-				65BCEFB57FB4B2128FDB41FA /* Sources */,
-				43BDEDC2DCC5FAC4AED21867 /* Frameworks */,
-				C53C5D0F63B9582ABA66A1B8 /* Headers */,
+				BBB42EF98827171E6B250A3F /* Sources */,
+				43F8FE3674750A5207D5EE84 /* Frameworks */,
+				FEE331DE30CA015ED2623636 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64944F3F74C107F7500C156C /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
+			productName = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
+			productReference = D566FEC9490C38ED1730A95E /* PXQuisiteExtensions.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E902F968946F137F52EBFBEB /* Pods-Tests-PXQSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1231A506BB0A0A4B36107288 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQSpinner" */;
+			buildPhases = (
+				C47911EE6FF0988198446EE1 /* Sources */,
+				7F1E2D119D473D2DB7B3ABD5 /* Frameworks */,
+				19890CE8DB867838A3AE2C9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1975E1BE202C996423F6F4C0 /* PBXTargetDependency */,
+				8519A5BFC32DD4A96122E0E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests-PXQSpinner";
 			productName = "Pods-Tests-PXQSpinner";
-			productReference = 913E834996CA07779C6A888F /* libPods-Tests-PXQSpinner.a */;
+			productReference = A29E819F03F73B033F6B6AED /* libPods-Tests-PXQSpinner.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		51FC5D85221FC6B4523CE878 /* Pods-Tests */ = {
+		EBBC2212059F1332DA352E2C /* Pods-PXQSpinner-PXQSpinner-PXQSpinner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 346CA4DAE441E09390BAAB12 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = BADDF15DF4670827E6896C25 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQSpinner-PXQSpinner" */;
 			buildPhases = (
-				22DB0A3357C253257BC0A3DB /* Sources */,
-				1B8EED7F8D8A5F9B1EC196DD /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				03E597D30CE61290F299A7FF /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 4C57443E06620ACF22F4B69A /* libPods-Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		9262BDC0DF9EC7D1CBD7CAF0 /* Pods-PXQSpinner-PXQSpinner-PXQSpinner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EEA267CDBF3E195DAEB2423E /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQSpinner-PXQSpinner" */;
-			buildPhases = (
-				39724098E9B230824B6754F6 /* Sources */,
-				BAEFE24CEEA495051F8F5E22 /* Frameworks */,
-				C93F800CA4F99C52CEBE0953 /* Resources */,
+				2FE69E01E5559DB17763FFF5 /* Sources */,
+				1DB34F4C20F08BB8CC802545 /* Frameworks */,
+				71E1EA0F4D95BC1AE595014F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -373,83 +1256,68 @@
 			);
 			name = "Pods-PXQSpinner-PXQSpinner-PXQSpinner";
 			productName = "Pods-PXQSpinner-PXQSpinner-PXQSpinner";
-			productReference = 100AA7DAB9F867DE1C5B326D /* PXQSpinner.bundle */;
+			productReference = D409DD4AA33A807B994FE452 /* PXQSpinner.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		CE6CB198CA93265E7AE791F1 /* Pods-PXQSpinner-PXQSpinner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1CA265523B7E776402D8641 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQSpinner" */;
-			buildPhases = (
-				146C282083F5FE347DF7205E /* Sources */,
-				AF99F4C74FF2BB61181F883D /* Frameworks */,
-				D172A13FE1E768092DF8BF58 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A46CFC9BE9430B3FC5830A32 /* PBXTargetDependency */,
-			);
-			name = "Pods-PXQSpinner-PXQSpinner";
-			productName = "Pods-PXQSpinner-PXQSpinner";
-			productReference = 22628BC2006A7E4ECC65D4FC /* libPods-PXQSpinner-PXQSpinner.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F0AEA77E289FBDE74A8D4A27 /* Pods-PXQSpinner */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D15DAC8712416A7F31D654C /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner" */;
-			buildPhases = (
-				95AFDD78D09367B248379CE9 /* Sources */,
-				E661B85C9E7F4E5B88D63ED6 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1323CEBAF62B5294A4D5776E /* PBXTargetDependency */,
-			);
-			name = "Pods-PXQSpinner";
-			productName = "Pods-PXQSpinner";
-			productReference = 2A86778D230A35CA20607F8D /* libPods-PXQSpinner.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		53CE83CC0DA44F3D15E9CFF4 /* Project object */ = {
+		80460DE6FD9C18A1C044CFA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = E771A25449CE30607F58D146 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = E06D91C0353DB23FCF96F067 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 738862438C7E35C83F9D4D1D;
-			productRefGroup = 426F2F466370DB7BA32532AA /* Products */;
+			mainGroup = 5CC9B55F366F6E774B4E091D;
+			productRefGroup = A79E410E5E794D0DA515A73E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0AEA77E289FBDE74A8D4A27 /* Pods-PXQSpinner */,
-				CE6CB198CA93265E7AE791F1 /* Pods-PXQSpinner-PXQSpinner */,
-				9262BDC0DF9EC7D1CBD7CAF0 /* Pods-PXQSpinner-PXQSpinner-PXQSpinner */,
-				51FC5D85221FC6B4523CE878 /* Pods-Tests */,
-				39D3E663E7892E6D09110A5D /* Pods-Tests-PXQSpinner */,
-				045615A37675B40E54E598F2 /* Pods-Tests-PXQSpinner-PXQSpinner */,
+				7626D27A0B6D5C3BBCDE1750 /* Pods-PXQSpinner */,
+				1124B3C9C31A0B21DBF7BBEC /* Pods-PXQSpinner-LINQ4Obj-C */,
+				4030F45C34DB0E072726C9D7 /* Pods-PXQSpinner-PXQSpinner */,
+				EBBC2212059F1332DA352E2C /* Pods-PXQSpinner-PXQSpinner-PXQSpinner */,
+				65E57C3FB3A3476C80F76D86 /* Pods-PXQSpinner-PXQuisiteExtensions */,
+				47E92514EB84C2B1FD16D800 /* Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions */,
+				9E42C5ACEDB4842127ECFC19 /* Pods-Tests */,
+				27912BAF9BDBE721C6FAB33D /* Pods-Tests-LINQ4Obj-C */,
+				E902F968946F137F52EBFBEB /* Pods-Tests-PXQSpinner */,
+				BB259C32B2405EE4BB274F01 /* Pods-Tests-PXQSpinner-PXQSpinner */,
+				4996A750B402D94AFB859550 /* Pods-Tests-PXQuisiteExtensions */,
+				CAA4C3C5CC9727848B6F8559 /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F237640425B1981D2126EA1 /* Resources */ = {
+		47F7E718CF29791E07A0E109 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C93F800CA4F99C52CEBE0953 /* Resources */ = {
+		71E1EA0F4D95BC1AE595014F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7AB985B35FD5F469A94D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE331DE30CA015ED2623636 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -459,48 +1327,184 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		146C282083F5FE347DF7205E /* Sources */ = {
+		0B7FADEA66633CA888710733 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC473A9FBAC8509333193A17 /* PXQSpinner.m in Sources */,
-				16F98DABF5A489FA45F98692 /* Pods-PXQSpinner-PXQSpinner-dummy.m in Sources */,
+				78C2F13B62C97945B210DF15 /* NSArray+LINQ_Aggregation.m in Sources */,
+				EB2B94B093633044A3A3220E /* NSArray+LINQ_Converting.m in Sources */,
+				B72AD862EB497930C87F4685 /* NSArray+LINQ_Filtering.m in Sources */,
+				757B5AF1EFB119D3BCFCF7F4 /* NSArray+LINQ_Generation.m in Sources */,
+				EF4D13BF9A422E04F8B822DE /* NSArray+LINQ_Grouping.m in Sources */,
+				E95E84117476643266551EB4 /* NSArray+LINQ_Partitioning.m in Sources */,
+				868828583E99EA562CA3952F /* NSArray+LINQ_Projection.m in Sources */,
+				EAF300CB13B2CAFFD931EBB9 /* NSArray+LINQ_Quantifier.m in Sources */,
+				2ECB96044027A2C2D28ED460 /* NSArray+LINQ_Sets.m in Sources */,
+				8BC53BEAD41DC757410BCB7F /* NSArray+LINQ_Sorting.m in Sources */,
+				BA6A0D9BE9C833C5ED8033BC /* NSDictionary+LINQ_Aggregation.m in Sources */,
+				121BDF7D1A740E152FA23391 /* NSDictionary+LINQ_Converting.m in Sources */,
+				81C98B6BD23803F6424A6464 /* NSDictionary+LINQ_Filtering.m in Sources */,
+				6448C92A0538C835185535C2 /* NSDictionary+LINQ_Generation.m in Sources */,
+				0E764E83AD6A3FD7022D1C1F /* NSDictionary+LINQ_Partitioning.m in Sources */,
+				C6CA3C82ACEA32DE062E1BB8 /* NSDictionary+LINQ_Quantifier.m in Sources */,
+				13A7B2236268C420AF42E780 /* NSDictionary+LINQ_Sets.m in Sources */,
+				6B5D689F7B8B30D0C92EBA22 /* Pods-PXQSpinner-LINQ4Obj-C-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22DB0A3357C253257BC0A3DB /* Sources */ = {
+		2FE69E01E5559DB17763FFF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC342F5816EE773B2020A20 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39724098E9B230824B6754F6 /* Sources */ = {
+		72C739181B3129545696E1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE767DC9D3D2E1F172D3563 /* Pods-PXQSpinner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E644A0A91A9631225269FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA50D77B7E46C6BE712EE9D3 /* NSArray+LINQ_Aggregation.m in Sources */,
+				EE88517B10FC97CE621B91AF /* NSArray+LINQ_Converting.m in Sources */,
+				F52D649E44E00D3C54101F5A /* NSArray+LINQ_Filtering.m in Sources */,
+				217DBD14DC0A2FB004A726FB /* NSArray+LINQ_Generation.m in Sources */,
+				5E59FF06EFEBC3B711D7EBFA /* NSArray+LINQ_Grouping.m in Sources */,
+				3A0BB898F81494DB0BAE2C96 /* NSArray+LINQ_Partitioning.m in Sources */,
+				DFE648D722B97371E1A40BC9 /* NSArray+LINQ_Projection.m in Sources */,
+				0DFCB7C8286275AF2C6F3081 /* NSArray+LINQ_Quantifier.m in Sources */,
+				80D73AD1292BD10B5A47B9C9 /* NSArray+LINQ_Sets.m in Sources */,
+				3DEB10437265AB4038AB4F00 /* NSArray+LINQ_Sorting.m in Sources */,
+				A9086CDA226F37F795FE49B8 /* NSDictionary+LINQ_Aggregation.m in Sources */,
+				0DA2D499C46D5F6E3033CC36 /* NSDictionary+LINQ_Converting.m in Sources */,
+				D855E31333FF5DDC8B768DED /* NSDictionary+LINQ_Filtering.m in Sources */,
+				5381B1CD8EE48313BA99EB74 /* NSDictionary+LINQ_Generation.m in Sources */,
+				039617AB2D5070CCBC488E03 /* NSDictionary+LINQ_Partitioning.m in Sources */,
+				191FA0C3215C87FD7ADFECEB /* NSDictionary+LINQ_Quantifier.m in Sources */,
+				329CF69A3EE99DDBA87D2361 /* NSDictionary+LINQ_Sets.m in Sources */,
+				9BF6A182BD6678C1C6B9E108 /* Pods-Tests-LINQ4Obj-C-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D2BD787CE202F0D6A4833D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799B6344F273AB1FC097721D /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85ADE472F001FDC75BAAD121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0135647AC8F7E6973B5A2E /* PXQSpinner.m in Sources */,
+				FCF61AF38A1C290E2B0351AA /* Pods-PXQSpinner-PXQSpinner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FCBC9308EB953BD91EA1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B35873D84B60EF30E9EBC1 /* NSArray+PXQuisite.m in Sources */,
+				4C966D2331328B6AED04A99F /* NSAttributeDescription+PXQuisite.m in Sources */,
+				08C75791F5186BC7834B56E6 /* NSBundle+PXQuisite.m in Sources */,
+				2C00947BB4D59F05206FE53E /* NSDate+PXQuisite.m in Sources */,
+				EAF67E6B47EB3783622AE4DD /* NSDateFormatter+PXQuisite.m in Sources */,
+				38E867B1D84DB1B35E1C994C /* NSDictionary+PXQuisite.m in Sources */,
+				34CE3DF92C4B11CA81F776D3 /* NSEntityDescription+PXQuisite.m in Sources */,
+				3A3172B3A59E50151653DE21 /* NSError+PXQuisite.m in Sources */,
+				CE350A32CF4FA41376E1059A /* NSException+PXQuisite.m in Sources */,
+				0AA2509725746E74F6C353FB /* NSManagedObject+PXQuisite.m in Sources */,
+				4A4123760F0DEE7569D6CFE4 /* NSManagedObjectContext+PXQuisite.m in Sources */,
+				DB18074630D5679065078309 /* NSManagedObjectModel+PXQuisite.m in Sources */,
+				3ACD9FAF34AD2C812C6A7788 /* NSMutableArray+PXQuisite.m in Sources */,
+				930EF9FACB2AB4B62EE8E6E1 /* NSMutableDictionary+PXQuisite.m in Sources */,
+				E247CB92B5ADCA4EC285A8ED /* NSObject+PXQuisite.m in Sources */,
+				18F29CD3FA4BCC3CDA552278 /* NSPersistentStore+PXQuisite.m in Sources */,
+				8285D9B4C22B096EE917524B /* NSPersistentStoreCoordinator+PXQuisite.m in Sources */,
+				C8B8850C338D8C1E7934D2D4 /* NSPropertyDescription+PXQuisite.m in Sources */,
+				02C1B5D9868CD8D263DCCAFD /* NSRelationshipDescription+PXQuisite.m in Sources */,
+				C8402E4AAF35CA5D7B20E50D /* NSString+PXQuisite.m in Sources */,
+				F1999869788611B671D95161 /* NSURL+PXQuisite.m in Sources */,
+				84759CD26225330B80711512 /* Pods-PXQSpinner-PXQuisiteExtensions-dummy.m in Sources */,
+				CB73B8582DCCFF0433C39C89 /* UIApplication+PXQuisite.m in Sources */,
+				C2AA8FCC52B4B35038DD4088 /* UIDevice+PXQuisite.m in Sources */,
+				3F5932BB11B923E70AD06C2D /* UIImage+PXQuisite.m in Sources */,
+				1A1CB4E330AD382024F49381 /* UINavigationController+PXQuisite.m in Sources */,
+				AFA54FA4C2B95B82B01B2BAC /* UIScreen+PXQuisite.m in Sources */,
+				13372CD8791B5FD71553A663 /* UIScreenMode+PXQuisite.m in Sources */,
+				06161D43845B432F75B03EAF /* UIView+PXQuisite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA7FDC94FB00D02C0C0A69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E9E82002B6A89D5DD0625E /* NSArray+PXQuisite.m in Sources */,
+				0AB13B5DE331B00308B7CBB0 /* NSAttributeDescription+PXQuisite.m in Sources */,
+				B24344975D476459B6FFC8FA /* NSBundle+PXQuisite.m in Sources */,
+				C6E5F607454F461E3DA914D3 /* NSDate+PXQuisite.m in Sources */,
+				ADCD08508DD6B50D5AC8E998 /* NSDateFormatter+PXQuisite.m in Sources */,
+				38FF4A1393783AA0456B457B /* NSDictionary+PXQuisite.m in Sources */,
+				AFB99E31CC8785564FC0C5A2 /* NSEntityDescription+PXQuisite.m in Sources */,
+				7B28F34CA322C06FF4F71974 /* NSError+PXQuisite.m in Sources */,
+				6A87CA1FC77383DBD1AD68E9 /* NSException+PXQuisite.m in Sources */,
+				5E1F75BFFF5291D4F8683BED /* NSManagedObject+PXQuisite.m in Sources */,
+				13BC8189D52279D2137C39AE /* NSManagedObjectContext+PXQuisite.m in Sources */,
+				D3410712C3E6175551C4435F /* NSManagedObjectModel+PXQuisite.m in Sources */,
+				3EE598E3305796FB37FEFF67 /* NSMutableArray+PXQuisite.m in Sources */,
+				8F60A3F5AAD12E755EFAF66D /* NSMutableDictionary+PXQuisite.m in Sources */,
+				5D21EE71B97C385A0C185619 /* NSObject+PXQuisite.m in Sources */,
+				C63AA3C85DD773E910DEE104 /* NSPersistentStore+PXQuisite.m in Sources */,
+				AAF64AA5FE3602711534F1AA /* NSPersistentStoreCoordinator+PXQuisite.m in Sources */,
+				03525C89C9C936BF45D93503 /* NSPropertyDescription+PXQuisite.m in Sources */,
+				1F288371E73D1E80778F3D73 /* NSRelationshipDescription+PXQuisite.m in Sources */,
+				3FA6FBAE79FA24F794212D35 /* NSString+PXQuisite.m in Sources */,
+				8642329B8E83C2E828813F71 /* NSURL+PXQuisite.m in Sources */,
+				51BA89E0B2D6691B18C54CF2 /* Pods-Tests-PXQuisiteExtensions-dummy.m in Sources */,
+				C5C3E984AF786C3022973DAC /* UIApplication+PXQuisite.m in Sources */,
+				5D01C6AAADD009BB3BE7E28F /* UIDevice+PXQuisite.m in Sources */,
+				1CA0D51915DED2D58319E5E7 /* UIImage+PXQuisite.m in Sources */,
+				9DFA4038C64CB94799C28E39 /* UINavigationController+PXQuisite.m in Sources */,
+				7DA7E81895B5A0868B858CC1 /* UIScreen+PXQuisite.m in Sources */,
+				C040A3243AE47F86C8BF2248 /* UIScreenMode+PXQuisite.m in Sources */,
+				AF0DD027000E6C3EA5C329A7 /* UIView+PXQuisite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11F32B4FA152B5EF9FC62C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65BCEFB57FB4B2128FDB41FA /* Sources */ = {
+		BBB42EF98827171E6B250A3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951EBA1F49B17BDE03923A81 /* PXQSpinner.m in Sources */,
-				B710AA561F3E69001789BE8E /* Pods-Tests-PXQSpinner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95AFDD78D09367B248379CE9 /* Sources */ = {
+		C47911EE6FF0988198446EE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358358DC19D65D7799AAC266 /* Pods-PXQSpinner-dummy.m in Sources */,
+				61F2DAF8AD3932A332469E72 /* PXQSpinner.m in Sources */,
+				FE705AF75E097F2DF262A51C /* Pods-Tests-PXQSpinner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB438B164ADD6D2B77FA248E /* Sources */ = {
+		CB9912BACE2637C88E44618C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -510,34 +1514,116 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03E597D30CE61290F299A7FF /* PBXTargetDependency */ = {
+		02B46DE1186E111F630C3F29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXQSpinner";
-			target = 39D3E663E7892E6D09110A5D /* Pods-Tests-PXQSpinner */;
-			targetProxy = 9829E2BE0D32C044EDAA4BE7 /* PBXContainerItemProxy */;
+			name = "Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions";
+			target = 47E92514EB84C2B1FD16D800 /* Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions */;
+			targetProxy = 475821448502EA7C617D7F02 /* PBXContainerItemProxy */;
 		};
-		1323CEBAF62B5294A4D5776E /* PBXTargetDependency */ = {
+		109AA57A47E50D54B1A4CC06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-PXQSpinner-PXQSpinner";
-			target = CE6CB198CA93265E7AE791F1 /* Pods-PXQSpinner-PXQSpinner */;
-			targetProxy = A812D81F9718D8B9DC29A166 /* PBXContainerItemProxy */;
+			name = "Pods-Tests-PXQuisiteExtensions";
+			target = 4996A750B402D94AFB859550 /* Pods-Tests-PXQuisiteExtensions */;
+			targetProxy = EA7E694D9CE72A59ECDBCDE7 /* PBXContainerItemProxy */;
 		};
-		64944F3F74C107F7500C156C /* PBXTargetDependency */ = {
+		1975E1BE202C996423F6F4C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-PXQSpinner-PXQSpinner";
-			target = 045615A37675B40E54E598F2 /* Pods-Tests-PXQSpinner-PXQSpinner */;
-			targetProxy = F35881E4C26EB9118E7B9CCE /* PBXContainerItemProxy */;
+			target = BB259C32B2405EE4BB274F01 /* Pods-Tests-PXQSpinner-PXQSpinner */;
+			targetProxy = B0C57F328E5F8EABD34E6E35 /* PBXContainerItemProxy */;
 		};
-		A46CFC9BE9430B3FC5830A32 /* PBXTargetDependency */ = {
+		3194E5CE8C3C3BD5921C826B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXQSpinner-LINQ4Obj-C";
+			target = 1124B3C9C31A0B21DBF7BBEC /* Pods-PXQSpinner-LINQ4Obj-C */;
+			targetProxy = 77587076581C8E43414A102C /* PBXContainerItemProxy */;
+		};
+		3E8046E0C716D4D2EAB04DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-LINQ4Obj-C";
+			target = 27912BAF9BDBE721C6FAB33D /* Pods-Tests-LINQ4Obj-C */;
+			targetProxy = F8826CF7450670354C8386C6 /* PBXContainerItemProxy */;
+		};
+		61CCFB17031600131623E321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXQSpinner-LINQ4Obj-C";
+			target = 1124B3C9C31A0B21DBF7BBEC /* Pods-PXQSpinner-LINQ4Obj-C */;
+			targetProxy = 3A5E70A3D0A69AA7E68876B3 /* PBXContainerItemProxy */;
+		};
+		8519A5BFC32DD4A96122E0E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXQuisiteExtensions";
+			target = 4996A750B402D94AFB859550 /* Pods-Tests-PXQuisiteExtensions */;
+			targetProxy = 67E412E1EE42E676CDE09CF6 /* PBXContainerItemProxy */;
+		};
+		9A5988A455E7BC52D06F2082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXQSpinner";
+			target = E902F968946F137F52EBFBEB /* Pods-Tests-PXQSpinner */;
+			targetProxy = 831152719F31F5B0463E368E /* PBXContainerItemProxy */;
+		};
+		ADC1C9CB7DD7E44EF956B54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXQSpinner-PXQuisiteExtensions";
+			target = 65E57C3FB3A3476C80F76D86 /* Pods-PXQSpinner-PXQuisiteExtensions */;
+			targetProxy = 12390E409F6E95D3D1E39D41 /* PBXContainerItemProxy */;
+		};
+		C94DE01FD2334442AA075A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXQSpinner-PXQuisiteExtensions";
+			target = 65E57C3FB3A3476C80F76D86 /* Pods-PXQSpinner-PXQuisiteExtensions */;
+			targetProxy = 96EF29816FA1616BAD60EF72 /* PBXContainerItemProxy */;
+		};
+		E659E5C4DF3FB3EB95DA2821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-LINQ4Obj-C";
+			target = 27912BAF9BDBE721C6FAB33D /* Pods-Tests-LINQ4Obj-C */;
+			targetProxy = FB2939E6B0086F7C74077102 /* PBXContainerItemProxy */;
+		};
+		EC5083483C041F62A8EA1065 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PXQSpinner-PXQSpinner-PXQSpinner";
-			target = 9262BDC0DF9EC7D1CBD7CAF0 /* Pods-PXQSpinner-PXQSpinner-PXQSpinner */;
-			targetProxy = 19063231FA07AC3E5F0AFCE7 /* PBXContainerItemProxy */;
+			target = EBBC2212059F1332DA352E2C /* Pods-PXQSpinner-PXQSpinner-PXQSpinner */;
+			targetProxy = 624D901F1D1BABF86FB54615 /* PBXContainerItemProxy */;
+		};
+		EF98A8F7C2CFF9C99EBE7954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
+			target = CAA4C3C5CC9727848B6F8559 /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */;
+			targetProxy = A14F5F4B8851D61413353960 /* PBXContainerItemProxy */;
+		};
+		F945D05D2AF2FF0FA9E81877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXQSpinner-PXQSpinner";
+			target = 4030F45C34DB0E072726C9D7 /* Pods-PXQSpinner-PXQSpinner */;
+			targetProxy = 4EDE2CBE5E184707A9A918A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0653B2B6673301AE6F4E0335 /* Release */ = {
+		05D525E7DC770E5A4A757F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1154E6DF2447EEBC0E06039E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		11DCB90270548F8FD0B86693 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -548,7 +1634,104 @@
 			};
 			name = Release;
 		};
-		436858778A2F0AF7BB2BAD7D /* Debug */ = {
+		1403405DAD3F22A9637B286C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DFC6ABB26207894D2B149AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB4D6028E14ADB6F1D5BAF5 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1FFDAA716A569C19B4983778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		20D3FB4B6442F67CF7FB0A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		476B628904CA099F169AF89B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC94EA9A81A4484EB1964B80 /* Pods-PXQSpinner-PXQSpinner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQSpinner-PXQSpinner/Pods-PXQSpinner-PXQSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4D9C69C68FFFE59579FD97BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F8E91D4B4B1A65DB965762 /* Pods-PXQSpinner-LINQ4Obj-C-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQSpinner-LINQ4Obj-C/Pods-PXQSpinner-LINQ4Obj-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		633B7C582BA459EDC05B2BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F8E91D4B4B1A65DB965762 /* Pods-PXQSpinner-LINQ4Obj-C-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQSpinner-LINQ4Obj-C/Pods-PXQSpinner-LINQ4Obj-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6C234C35182D2FC4E15B8593 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -587,25 +1770,9 @@
 			};
 			name = Debug;
 		};
-		615D9FE4AAD7F18A6E5DAA73 /* Debug */ = {
+		6E52008B2E27EC6A9D02E61C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64A653630E129EAAFC5EFD40 /* Pods-PXQSpinner.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		63D3636FA51548B15DF056EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E594E1BDE9FE552BEB0D3C07 /* Pods-Tests-PXQSpinner-Private.xcconfig */;
+			baseConfigurationReference = DFFCD155E927FB9901FD0A79 /* Pods-Tests-PXQSpinner-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-prefix.pch";
@@ -619,45 +1786,23 @@
 			};
 			name = Release;
 		};
-		6997258E7A7D90E6B6ABB093 /* Debug */ = {
+		73C55654F06A7BFA6D202A39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70391E527933654E321AA464 /* Pods-PXQSpinner-PXQuisiteExtensions-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQSpinner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		85F57D58410D071BFC81857C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQSpinner;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		9029244010C6B4FA98039D20 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E594E1BDE9FE552BEB0D3C07 /* Pods-Tests-PXQSpinner-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQSpinner-PXQuisiteExtensions/Pods-PXQSpinner-PXQuisiteExtensions-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		98801FB70C7EDF70F7C063F2 /* Release */ = {
+		8E7498A797FB9683678C438D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -691,7 +1836,146 @@
 			};
 			name = Release;
 		};
-		ACC2BBAD5A0EE2FE0340C8F5 /* Debug */ = {
+		981A0E4AA6E6A4D076FEFAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9A453F6F2AD98C78D3E0B339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70391E527933654E321AA464 /* Pods-PXQSpinner-PXQuisiteExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQSpinner-PXQuisiteExtensions/Pods-PXQSpinner-PXQuisiteExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B399A174817466B58EE9A7E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EF56C3AA091A95C0D990E8 /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BF6413A034ADCFFF7BF105FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFCD155E927FB9901FD0A79 /* Pods-Tests-PXQSpinner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQSpinner/Pods-Tests-PXQSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C8CD3096A872D8B15BC8A395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7ECC7C832B0A83EF51A577 /* Pods-Tests-LINQ4Obj-C-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-LINQ4Obj-C/Pods-Tests-LINQ4Obj-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1E21337AF1FF6C248D1373F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC94EA9A81A4484EB1964B80 /* Pods-PXQSpinner-PXQSpinner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQSpinner-PXQSpinner/Pods-PXQSpinner-PXQSpinner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D207AA6CC62B6D1092D39A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7ECC7C832B0A83EF51A577 /* Pods-Tests-LINQ4Obj-C-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-LINQ4Obj-C/Pods-Tests-LINQ4Obj-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D4243EEA2A0596B8F3579107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B4A239C973E50252EF2D1D /* Pods-PXQSpinner.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D59D041B5DC0BE8B6F3D0CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D529BBAA19985F7738A9463 /* Pods-PXQSpinner.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F371B9443B49BB207B7F94C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -700,75 +1984,11 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
-		};
-		B67CC971135C2D520FE8B543 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29850DEBBA12AAEF0032429A /* Pods-PXQSpinner-PXQSpinner-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQSpinner-PXQSpinner/Pods-PXQSpinner-PXQSpinner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
 			name = Release;
 		};
-		C085CED22C8E0E3B8FF9F04F /* Debug */ = {
+		FA7AE1E89972C64BD35ED051 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29850DEBBA12AAEF0032429A /* Pods-PXQSpinner-PXQSpinner-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQSpinner-PXQSpinner/Pods-PXQSpinner-PXQSpinner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D79447BBC6ED1772B4E29529 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81E4A4F4B9D5C13E0E886DB6 /* Pods-PXQSpinner.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D848A56AD806C22F85FB3FD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7128D0535380973CC435A97 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		F25D9527A11A56B524EF8FF5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 582C474FA53B61268B250958 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 7D5ECF585FFC05B39097F506 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -776,6 +1996,22 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FCFB948345168A694F74E873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EF56C3AA091A95C0D990E8 /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -785,70 +2021,124 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D15DAC8712416A7F31D654C /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner" */ = {
+		0CFF01E529C4DBCBFC290AF0 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQuisiteExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				615D9FE4AAD7F18A6E5DAA73 /* Debug */,
-				D79447BBC6ED1772B4E29529 /* Release */,
+				9A453F6F2AD98C78D3E0B339 /* Debug */,
+				73C55654F06A7BFA6D202A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		346CA4DAE441E09390BAAB12 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		1231A506BB0A0A4B36107288 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQSpinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F25D9527A11A56B524EF8FF5 /* Debug */,
-				D848A56AD806C22F85FB3FD5 /* Release */,
+				BF6413A034ADCFFF7BF105FB /* Debug */,
+				6E52008B2E27EC6A9D02E61C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AE5EAAB87A738B3514C6BE7 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQSpinner" */ = {
+		1DABF27CB6C8B5351B619A12 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQSpinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9029244010C6B4FA98039D20 /* Debug */,
-				63D3636FA51548B15DF056EF /* Release */,
+				D1E21337AF1FF6C248D1373F /* Debug */,
+				476B628904CA099F169AF89B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B167A4D9205ECB2EA17EF63A /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQSpinner-PXQSpinner" */ = {
+		21E53CE954E6CD4C06565CF6 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-LINQ4Obj-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACC2BBAD5A0EE2FE0340C8F5 /* Debug */,
-				85F57D58410D071BFC81857C /* Release */,
+				633B7C582BA459EDC05B2BD2 /* Debug */,
+				4D9C69C68FFFE59579FD97BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1CA265523B7E776402D8641 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQSpinner" */ = {
+		4C962C91F6A40C840EB1EF9A /* Build configuration list for PBXNativeTarget "Pods-Tests-LINQ4Obj-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C085CED22C8E0E3B8FF9F04F /* Debug */,
-				B67CC971135C2D520FE8B543 /* Release */,
+				D207AA6CC62B6D1092D39A73 /* Debug */,
+				C8CD3096A872D8B15BC8A395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E771A25449CE30607F58D146 /* Build configuration list for PBXProject "Pods" */ = {
+		6C120D08B393EF455DC252D5 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				436858778A2F0AF7BB2BAD7D /* Debug */,
-				98801FB70C7EDF70F7C063F2 /* Release */,
+				20D3FB4B6442F67CF7FB0A36 /* Debug */,
+				981A0E4AA6E6A4D076FEFAFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEA267CDBF3E195DAEB2423E /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQSpinner-PXQSpinner" */ = {
+		9C28037CFA87F99D90830B87 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6997258E7A7D90E6B6ABB093 /* Debug */,
-				0653B2B6673301AE6F4E0335 /* Release */,
+				FA7AE1E89972C64BD35ED051 /* Debug */,
+				1DFC6ABB26207894D2B149AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B611A90426C84C22C7FF42D3 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D041B5DC0BE8B6F3D0CCC /* Debug */,
+				D4243EEA2A0596B8F3579107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADDF15DF4670827E6896C25 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQSpinner-PXQSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFDAA716A569C19B4983778 /* Debug */,
+				11DCB90270548F8FD0B86693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB4B589F3EB18E889AB3B8B /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB948345168A694F74E873 /* Debug */,
+				B399A174817466B58EE9A7E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D425A13FAB4B2D82173C4002 /* Build configuration list for PBXNativeTarget "Pods-PXQSpinner-PXQuisiteExtensions-PXQuisiteExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1154E6DF2447EEBC0E06039E /* Debug */,
+				1403405DAD3F22A9637B286C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06D91C0353DB23FCF96F067 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C234C35182D2FC4E15B8593 /* Debug */,
+				8E7498A797FB9683678C438D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95FFEE54E2D3F24A78CB4B2 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQSpinner-PXQSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D525E7DC770E5A4A757F3A /* Debug */,
+				F371B9443B49BB207B7F94C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 53CE83CC0DA44F3D15E9CFF4 /* Project object */;
+	rootObject = 80460DE6FD9C18A1C044CFA8 /* Project object */;
 }

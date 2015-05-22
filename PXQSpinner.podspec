@@ -9,10 +9,12 @@
 
 Pod::Spec.new do |s|
   s.name             = "PXQSpinner"
-  s.version          = "0.2"
-  s.summary          = "PXQSpinner is another iOS spinner."
+  s.version          = "0.3"
+  s.summary          = "PXQSpinner is just another iOS activity indicator."
   s.description      = <<-DESC
-a
+
+The PXQSpinner allows for better flexibility and customization over the standard UIActivityIndicator view.
+
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
@@ -32,6 +34,6 @@ a
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit', 'CoreGraphics'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore'
+  s.dependency 'PXQuisiteExtensions', '~> 0.5'
 end
